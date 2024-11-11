@@ -1,0 +1,74 @@
+/**
+* @file _common.scss
+**/
+
+.is-pc {
+    display: block;
+    @include media-sp {
+        display: none!important;
+    }
+}
+
+.is-sp {
+    display: none!important;
+    @include media-sp {
+        display: block!important;
+    }
+}
+
+
+.no-display {
+    top: 80px!important;
+    opacity: 0;
+}
+
+.__container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+.fixed-header{
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+}
+
+
+.__for_after {
+    transition: all 0.3s;
+    position: relative;
+
+    &:hover {
+        transform: translateY(5px);
+        box-shadow: none!important;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 23px;
+        background-image: url(../img/top/img-btn-after-white.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        right: 4%;
+        top: 36%;
+    }
+
+    
+}
+.__for_after-sns {
+    transition: all 0.3s;
+    position: relative;
+
+    &:hover {
+        transform: translateY(5px);
+        box-shadow: none!important;
+    }    
+}
+
+
