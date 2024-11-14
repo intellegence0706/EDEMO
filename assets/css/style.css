@@ -3441,6 +3441,7 @@ figure {
   padding-right: 16px;
   padding-bottom: 65px;
   position: relative;
+  margin-top: -4px;
 }
 @media screen and (max-width: 769px) {
   #choose_company .p-pagettl {
@@ -3995,6 +3996,7 @@ figure {
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
+  margin-top: -4px;
 }
 @media screen and (max-width: 769px) {
   #company .p-pagettl {
@@ -4821,6 +4823,7 @@ figure {
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
+  margin-top: -4px;
 }
 @media screen and (max-width: 769px) {
   #policy .p-pagettl {
@@ -4919,6 +4922,7 @@ figure {
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
+  margin-top: -4px;
 }
 @media screen and (max-width: 769px) {
   #faq .p-pagettl {
@@ -5807,6 +5811,7 @@ figure {
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
+  margin-top: -4px;
 }
 @media screen and (max-width: 769px) {
   #contact .p-pagettl {
@@ -6132,6 +6137,7 @@ figure {
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
+  margin-top: -4px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-pagettl {
@@ -6928,6 +6934,7 @@ figure {
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
+  margin-top: -4px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-pagettl {
