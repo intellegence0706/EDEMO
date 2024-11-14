@@ -4911,7 +4911,8 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #policy .p-pagettl {
-    background-position: 53%;
+    background-position: 43%;
+    height: 253px;
   }
 }
 #policy .p-pagettl h2 {
@@ -4925,7 +4926,7 @@ figure {
   #policy .p-pagettl h2 {
     font-size: 33px;
     padding-left: 16px;
-    padding-top: 137px;
+    padding-top: 77px;
   }
 }
 #policy .p-policy {
@@ -5626,8 +5627,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #law .p-pagettl {
-    background-position: 53%;
+    background-position: 43%;
     background-size: cover;
+    height: 253px;
   }
 }
 #law .p-pagettl h2 {
@@ -5641,7 +5643,7 @@ figure {
   #law .p-pagettl h2 {
     font-size: 31px;
     padding-left: 16px;
-    padding-top: 137px;
+    padding-top: 77px;
   }
 }
 #law .p-ttl {

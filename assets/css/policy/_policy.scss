@@ -10,7 +10,8 @@
         padding-bottom: 65px;
         margin-top: -4px;
         @include media-sp {
-            background-position: 53%;
+            background-position: 43%;
+            height: 253px;
         }
 
         h2 {
@@ -22,7 +23,8 @@
             @include media-sp {
                 font-size: 33px;
                 padding-left: 16px;
-                padding-top: 137px;
+                padding-top: 77px;
+
 
             } 
         }
