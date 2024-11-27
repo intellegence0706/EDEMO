@@ -17,10 +17,10 @@
 
     h2 {
       color: white;
-      font-size: 65px;
+      font-size: 62px;
       font-weight: 900;
-      padding-left: 274px;
-      padding-top: 258px;
+      padding-left: 94px;
+      padding-top: 238px;
       @include media-sp {
         font-size: 24px;
         padding-left: 16px;
@@ -29,9 +29,9 @@
     }
     figure {
       position: absolute;
-      margin-left: 275px;
-      margin-top: 120px;
-      max-width: 420px;
+      margin-left: 155px;
+      margin-top: 110px;
+      max-width: 430px;
       @include media-sp {
         font-size: 18px;
         margin-left: 16px;

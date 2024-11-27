@@ -216,7 +216,6 @@ figure {
   display: flex;
   align-content: inherit;
   justify-content: center;
-  height: 100px;
   background-color: white;
   position: relative;
   z-index: 9999;
@@ -224,7 +223,6 @@ figure {
 @media screen and (max-width: 1317px) {
   .c-header {
     display: block;
-    height: 135.47px;
   }
 }
 .c-header .visual-ttl {
@@ -320,7 +318,7 @@ figure {
   left: 50%;
   width: 0%;
   height: 3px;
-  background-color: #2E84DA;
+  background-color: #2e84da;
   transition: all 0.2s ease-out;
 }
 .c-header__inner .c-header-right .__link-wrap .c-header__items li:hover::after {
@@ -331,15 +329,20 @@ figure {
   text-decoration: none;
 }
 .c-header__inner .c-header-right .c-header-wrap {
-  padding: 19px;
+  padding: 6px 26px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #f4efb7;
+  background-color: #ffed21;
   gap: 5px;
-  font-size: 20px;
+  font-size: 16px;
+  border-radius: 15px;
   text-decoration: none;
+  margin-right: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .c-header__inner .c-header-right .c-header-wrap:hover {
   opacity: 0.8;
@@ -356,9 +359,8 @@ figure {
   }
 }
 .c-header__inner .res-nav .c-header-wrap {
-  background-color: #f4efb7;
+  background-color: #ffed21;
   padding: 10px;
-  font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,8 +369,8 @@ figure {
   text-decoration: none;
   font-weight: 700;
   height: 65px;
-  width: 80px;
   border-radius: 10px;
+  font-size: 9px;
 }
 .c-header__inner .res-nav .c-header-wrap figure {
   max-width: 30px;
@@ -380,7 +382,7 @@ figure {
   flex-direction: column;
   gap: 3px;
   padding: 10px;
-  background-color: #2E84DA;
+  background-color: #2e84da;
   color: #ffffff;
   height: 65px;
   width: 80px;
@@ -427,7 +429,7 @@ figure {
 .hamburger-menu {
   width: 100%;
   padding: 32px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   position: fixed;
   transition: all 0.2s;
   z-index: 100;
@@ -2806,7 +2808,7 @@ figure {
   height: 540px;
   background-image: url(../img/member/bg-page-ttl.png);
   background-position: 61%;
-  background-size: 101% 101%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
@@ -2820,16 +2822,16 @@ figure {
 }
 #member .p-pagettl h2 {
   color: white;
-  font-size: 47px;
+  font-size: 65px;
   font-weight: 900;
-  padding-left: 143px;
-  padding-top: 188px;
+  padding-left: 146px;
+  padding-top: 202px;
 }
 @media screen and (max-width: 769px) {
   #member .p-pagettl h2 {
     font-size: 29px;
     padding-left: 16px;
-    padding-top: 41px;
+    padding-top: 51px;
   }
 }
 #member .p-slider {
@@ -3402,10 +3404,10 @@ figure {
 }
 #choose_company .p-pagettl h2 {
   color: white;
-  font-size: 65px;
+  font-size: 62px;
   font-weight: 900;
-  padding-left: 274px;
-  padding-top: 258px;
+  padding-left: 94px;
+  padding-top: 238px;
 }
 @media screen and (max-width: 769px) {
   #choose_company .p-pagettl h2 {
@@ -3416,9 +3418,9 @@ figure {
 }
 #choose_company .p-pagettl figure {
   position: absolute;
-  margin-left: 275px;
-  margin-top: 120px;
-  max-width: 420px;
+  margin-left: 155px;
+  margin-top: 110px;
+  max-width: 430px;
 }
 @media screen and (max-width: 769px) {
   #choose_company .p-pagettl figure {
@@ -3963,8 +3965,8 @@ figure {
   color: white;
   font-size: 65px;
   font-weight: 900;
-  padding-left: 274px;
-  padding-top: 258px;
+  padding-left: 230px;
+  padding-top: 208px;
 }
 @media screen and (max-width: 769px) {
   #company .p-pagettl h2 {
@@ -4803,10 +4805,10 @@ figure {
 }
 #policy .p-pagettl h2 {
   color: white;
-  font-size: 47px;
+  font-size: 56px;
   font-weight: 900;
-  padding-left: 143px;
-  padding-top: 188px;
+  padding-left: 144px;
+  padding-top: 218px;
 }
 @media screen and (max-width: 769px) {
   #policy .p-pagettl h2 {
@@ -4910,8 +4912,8 @@ figure {
   color: white;
   font-size: 65px;
   font-weight: 900;
-  padding-left: 274px;
-  padding-top: 258px;
+  padding-left: 180px;
+  padding-top: 218px;
 }
 @media screen and (max-width: 769px) {
   #faq .p-pagettl h2 {
@@ -5525,7 +5527,7 @@ figure {
   height: 540px;
   background-image: url(../img/law/bg-pagettl.png);
   background-position: 61%;
-  background-size: 101% 101%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
@@ -5542,8 +5544,8 @@ figure {
   color: white;
   font-size: 47px;
   font-weight: 900;
-  padding-left: 143px;
-  padding-top: 188px;
+  padding-left: 139px;
+  padding-top: 231px;
 }
 @media screen and (max-width: 769px) {
   #law .p-pagettl h2 {
@@ -5816,8 +5818,8 @@ figure {
   color: white;
   font-size: 65px;
   font-weight: 900;
-  padding-left: 274px;
-  padding-top: 258px;
+  padding-left: 214px;
+  padding-top: 208px;
 }
 @media screen and (max-width: 769px) {
   #contact .p-pagettl h2 {
@@ -6140,7 +6142,7 @@ figure {
   height: 540px;
   background-image: url(../img/unneeditem_where/img-page-ttl.png);
   background-position: 61%;
-  background-size: 101% 101%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-right: 16px;
   padding-bottom: 65px;
@@ -6156,8 +6158,8 @@ figure {
   color: white;
   font-size: 65px;
   font-weight: 900;
-  padding-left: 275px;
-  padding-top: 188px;
+  padding-left: 105px;
+  padding-top: 206px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -9731,8 +9733,8 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-contact-1 .__container .__btn-g .line-contact::before {
     width: 166px;
-    height: 134px;
-    top: -471%;
+    height: 162px;
+    top: -515%;
     right: 0;
   }
 }

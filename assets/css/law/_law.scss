@@ -4,7 +4,7 @@
     height: 540px;
     background-image: url(../img/law/bg-pagettl.png);
     background-position: 61%;
-    background-size: 101% 101%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-right: 16px;
     padding-bottom: 65px;
@@ -19,8 +19,9 @@
       color: white;
       font-size: 47px;
       font-weight: 900;
-      padding-left: 143px;
-      padding-top: 188px;
+      padding-left: 139px;
+      padding-top: 231px;
+
       @include media-sp {
         font-size: 29px;
         padding-left: 16px;

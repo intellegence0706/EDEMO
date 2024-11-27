@@ -31,7 +31,7 @@
     height: 540px;
     background-image: url(../img/member/bg-page-ttl.png);
     background-position: 61%;
-    background-size: 101% 101%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-right: 16px;
     padding-bottom: 65px;
@@ -43,14 +43,14 @@
 
     h2 {
       color: white;
-      font-size: 47px;
+      font-size: 65px;
       font-weight: 900;
-      padding-left: 143px;
-      padding-top: 188px;
+      padding-left: 146px;
+      padding-top: 202px;
       @include media-sp {
         font-size: 29px;
         padding-left: 16px;
-        padding-top: 41px;
+        padding-top: 51px;
       }
     }
   }
