@@ -5,8 +5,10 @@
   background-color: white;
   position: relative;
   z-index: 9999;
+  height: 95px;
   @include responsive(1317px) {
     display: block;
+    height: 125px;
   }
   .visual-ttl {
     display: none;

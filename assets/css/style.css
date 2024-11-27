@@ -219,10 +219,12 @@ figure {
   background-color: white;
   position: relative;
   z-index: 9999;
+  height: 95px;
 }
 @media screen and (max-width: 1317px) {
   .c-header {
     display: block;
+    height: 125px;
   }
 }
 .c-header .visual-ttl {
