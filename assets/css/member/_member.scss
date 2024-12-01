@@ -48,9 +48,9 @@
       padding-left: 146px;
       padding-top: 202px;
       @include media-sp {
-        font-size: 29px;
         padding-left: 16px;
         padding-top: 51px;
+        font-size: 25px;
       }
     }
   }
@@ -60,16 +60,24 @@
     padding-bottom: 65px;
 
     overflow: hidden;
+    @include media-sp {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
     .container {
       width: max-content;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 22px;
+      @include media-sp {
+        gap: 15px;
+        transform: translateX(-11%);
+      }
       .step-slider-img {
         width: 428px;
         @include media-sp {
-          width: 350px;
+          width: 186px;
         }
       }
     }
@@ -96,7 +104,7 @@
         font-weight: 700;
         text-align: center;
         @include media-sp {
-          font-size: 24px;
+          font-size: 22px;
         }
       }
       .__ourpupose-ctn {
@@ -135,7 +143,8 @@
       padding: 169px 40px 109px;
       position: relative;
       @include media-sp {
-        padding: 120px 16px 80px;
+        padding: 120px 36px 80px;
+        border-radius: 25px;
       }
       .p-intro-ttl {
         position: absolute;
@@ -150,7 +159,7 @@
       }
       .__intro-ceos {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         justify-content: center;
         gap: 30px;
         @include media-sp {
@@ -176,13 +185,9 @@
             background-color: #ff811c;
             padding: 15px 55px;
             border-radius: 13px;
-            @include media-sp {
-              left: 28%;
-            }
           }
           .__ceo-img {
             border-radius: 27px 27px 0 0;
-            height: 285px;
           }
           .__ceo-ctn {
             padding-right: 22px;
@@ -196,6 +201,7 @@
               padding-top: 60px;
               padding-bottom: 10px;
               border-bottom: #ff811c 2px dashed;
+
               figure {
                 max-width: 45px;
               }
@@ -205,6 +211,12 @@
                 font-weight: 700;
               }
             }
+            .ctn {
+              font-size: 16px;
+              padding-top: 20px;
+              font-weight: 500;
+            }
+
             .ceo-btn {
               padding: 12px;
               border-radius: 100px;
@@ -219,9 +231,9 @@
               display: flex;
               align-items: center;
               justify-content: center;
-              margin-top: 60px;
+              margin-top: 36px;
               font-weight: 700;
-              margin-bottom: 85px;
+              margin-bottom: 36px;
             }
           }
         }
@@ -506,12 +518,14 @@
           position: relative;
           @include media-sp {
             padding: 17px 17px 17px 65px;
+            font-size: 24px;
+            line-height: 40px;
           }
           &::after {
             content: "";
             position: absolute;
-            width: 45px;
-            height: 42px;
+            width: 31px;
+            height: 32px;
             background-image: url(../img/member//img-area-map-after.png);
             background-repeat: no-repeat;
             background-position: center;

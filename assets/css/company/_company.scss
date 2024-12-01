@@ -59,6 +59,7 @@
       position: relative;
       @include media-sp {
         padding-top: 80px;
+        padding-bottom: 150px;
       }
       &::after {
         width: 100%;
@@ -104,17 +105,17 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 50px;
+        gap: 104px;
         position: relative;
-        &::after {
-          content: "代表取締役社長　秋山易範";
-          position: absolute;
-          font-size: 18px;
-          font-weight: 600;
-          bottom: 0;
-          bottom: -5%;
-          right: 11%;
-        }
+        // &::after {
+        //   content: "代表取締役社長　秋山易範";
+        //   position: absolute;
+        //   font-size: 18px;
+        //   font-weight: 600;
+        //   bottom: 0;
+        //   bottom: -5%;
+        //   right: 11%;
+        // }
 
         .__ceo {
           .__ceo-img {
@@ -123,7 +124,7 @@
             border-radius: 72px;
             float: right;
             margin-left: 30px;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             @include media-sp {
               width: 100%;
               max-width: unset;
@@ -139,18 +140,28 @@
               }
             }
             .__msg-ctn {
-              padding-top: 50px;
-              font-size: 16px;
+              padding-top: 40px;
+              font-size: 18px;
               font-weight: 500;
+              @include media-sp {
+                font-size: 16px;
+              }
+            }
+
+            .ceo-name {
+              font-size: 20px;
+              font-weight: 400;
+              text-align: right;
+              padding-top: 20px;
             }
           }
 
-          &:first-child {
+          &:nth-child(2) {
             .__ceo-img {
               float: left;
               margin-right: 50px;
               margin-left: 0;
-              margin-bottom: 0;
+
               @include media-sp {
                 margin-bottom: 50px;
               }
@@ -167,15 +178,16 @@
     justify-content: center;
     padding-right: 16px;
     padding-left: 16px;
-    padding-top: 185px;
-    padding-bottom: 214px;
+    padding-top: 104px;
+    padding-bottom: 104px;
     background-image: url(../img/company/bg-vision.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     @include media-sp {
-      padding-top: 135px;
-      padding-bottom: 100px;
+      padding-top: 90px;
+      padding-bottom: 40px;
+      margin-top: -30px;
     }
     @include media-sp {
       background-size: cover;
@@ -229,10 +241,13 @@
           padding: 360px 16px 16px 16px;
         }
         .__head-ttl {
-          font-size: 28px;
+          font-size: 24px;
           font-weight: normal;
           font-family: $font-ko;
           padding-bottom: 68px;
+          @include media-sp {
+            padding-bottom: 36px;
+          }
         }
         .__head-ctn {
           font-size: 18px;
@@ -308,12 +323,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 188px 16px 204px 16px;
+    padding: 104px 16px 104px 16px;
     background-image: url(../img/company/bg-licences.jpg);
     background-position: center;
     background-size: 100% 100%;
     @include media-sp {
-      padding: 100px 16px 100px 16px;
+      padding: 40px 16px 40px 16px;
     }
     .__container {
       .__licenses-ttl {
@@ -343,12 +358,27 @@
         padding-top: 75px;
         padding-bottom: 75px;
         border-bottom: 3px dashed #ff811c;
+        @include media-sp {
+          padding-top: 40px;
+          padding-bottom: 36px;
+        }
         .__licenses-item {
           display: flex;
           align-items: flex-start;
           justify-content: flex-start;
           gap: 70px;
           padding-left: 70px;
+          position: relative;
+          .absolute {
+            position: absolute;
+            max-width: 171px;
+            top: 0;
+            right: 0;
+            @include media-sp {
+              top: -124px;
+              max-width: 70px;
+            }
+          }
           &:first-child {
             margin-bottom: 50px;
           }
@@ -729,12 +759,14 @@
           position: relative;
           @include media-sp {
             padding: 17px 17px 17px 65px;
+            font-size: 24px;
+            line-height: 40px;
           }
           &::after {
             content: "";
             position: absolute;
-            width: 45px;
-            height: 42px;
+            width: 31px;
+            height: 32px;
             background-image: url(../img/member//img-area-map-after.png);
             background-repeat: no-repeat;
             background-position: center;

@@ -70,9 +70,10 @@
       height: 113px;
       transition: all 0.3s;
       @include media-sp {
-        width: 187px;
+        width: 160px;
         height: 61px;
         border-radius: 10px;
+        font-size: 13px;
       }
       &:hover {
         color: white;
@@ -554,12 +555,14 @@
           position: relative;
           @include media-sp {
             padding: 17px 17px 17px 65px;
+            font-size: 24px;
+            line-height: 40px;
           }
           &::after {
             content: "";
             position: absolute;
-            width: 45px;
-            height: 42px;
+            width: 31px;
+            height: 32px;
             background-image: url(../img/member//img-area-map-after.png);
             background-repeat: no-repeat;
             background-position: center;
