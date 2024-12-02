@@ -26,9 +26,9 @@
       padding-left: 214px;
       padding-top: 208px;
       @include media-sp {
-        font-size: 32px;
+        font-size: 26px;
         padding-left: 16px;
-        padding-top: 51px;
+        padding-top: 56px;
       }
     }
     figure {
@@ -216,6 +216,8 @@
       .__submit {
         padding-top: 70px;
         padding-left: 127px;
+        margin: auto;
+        width: max-content;
         @include media-sp {
           padding-top: 51px;
           padding-left: 16px;

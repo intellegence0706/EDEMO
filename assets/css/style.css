@@ -4902,7 +4902,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #policy .p-pagettl h2 {
-    font-size: 27px;
+    font-size: 25px;
     padding-left: 16px;
     padding-top: 34px;
   }
@@ -4931,6 +4931,7 @@ figure {
   font-size: 28px;
   font-weight: 700;
   color: #ff811c;
+  text-align: center;
 }
 #policy .p-policy .__container .__policy-ttl .__ttl-ctn {
   padding-top: 43px;
@@ -5649,14 +5650,14 @@ figure {
 }
 #law .p-pagettl h2 {
   color: white;
-  font-size: 47px;
+  font-size: 40px;
   font-weight: 900;
   padding-left: 139px;
   padding-top: 231px;
 }
 @media screen and (max-width: 769px) {
   #law .p-pagettl h2 {
-    font-size: 29px;
+    font-size: 25px;
     padding-left: 16px;
     padding-top: 41px;
   }
@@ -5683,6 +5684,7 @@ figure {
   font-size: 36px;
   font-weight: 900;
   color: #ff811c;
+  text-align: center;
 }
 @media screen and (max-width: 769px) {
   #law .p-ttl .__container h3 {
@@ -5868,6 +5870,30 @@ figure {
 #law .p-law .__container .__law-item {
   position: relative;
 }
+@media screen and (max-width: 769px) {
+  #law .p-law .__container .__law-item:first-child .__law-ttl {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff811c;
+    text-align: center;
+    width: -moz-max-content;
+    width: max-content;
+    background-color: white;
+    padding-right: 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 769px) {
+  #law .p-law .__container .__law-item:first-child::after {
+    width: 313px;
+    border-bottom: 3px dashed #ff811c;
+    /* right: 0; */
+    left: 5%;
+    top: 54px;
+    z-index: -1;
+  }
+}
 #law .p-law .__container .__law-item::after {
   content: "";
   position: absolute;
@@ -5876,6 +5902,16 @@ figure {
   right: 0;
   top: 17px;
   z-index: -1;
+}
+@media screen and (max-width: 769px) {
+  #law .p-law .__container .__law-item::after {
+    width: 120px;
+    border-bottom: 3px dashed #ff811c;
+    /* right: 0; */
+    left: 0;
+    top: 54px;
+    z-index: -1;
+  }
 }
 #law .p-law .__container .__law-item .__law-ttl {
   font-size: 24px;
@@ -5930,9 +5966,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #contact .p-pagettl h2 {
-    font-size: 32px;
+    font-size: 26px;
     padding-left: 16px;
-    padding-top: 51px;
+    padding-top: 56px;
   }
 }
 #contact .p-pagettl figure {
@@ -6139,6 +6175,9 @@ figure {
 #contact .p-company .__container .__submit {
   padding-top: 70px;
   padding-left: 127px;
+  margin: auto;
+  width: -moz-max-content;
+  width: max-content;
 }
 @media screen and (max-width: 769px) {
   #contact .p-company .__container .__submit {

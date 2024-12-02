@@ -17,13 +17,13 @@
 
     h2 {
       color: white;
-      font-size: 47px;
+      font-size: 40px;
       font-weight: 900;
       padding-left: 139px;
       padding-top: 231px;
 
       @include media-sp {
-        font-size: 29px;
+        font-size: 25px;
         padding-left: 16px;
         padding-top: 41px;
       }
@@ -48,6 +48,7 @@
         font-size: 36px;
         font-weight: 900;
         color: #ff811c;
+        text-align: center;
         @include media-sp {
           font-size: 28px;
         }
@@ -216,6 +217,33 @@
       }
       .__law-item {
         position: relative;
+        &:first-child {
+          .__law-ttl {
+            @include media-sp {
+              font-size: 24px;
+              font-weight: 700;
+              color: #ff811c;
+              text-align: center;
+              width: -moz-max-content;
+              width: max-content;
+              background-color: white;
+              padding-right: 0;
+              text-align: center;
+              width: 100%;
+            }
+          }
+          &::after {
+            @include media-sp {
+              width: 313px;
+
+              border-bottom: 3px dashed #ff811c;
+              /* right: 0; */
+              left: 5%;
+              top: 54px;
+              z-index: -1;
+            }
+          }
+        }
         &::after {
           content: "";
           position: absolute;
@@ -225,6 +253,12 @@
           top: 17px;
           z-index: -1;
           @include media-sp {
+            width: 120px;
+            border-bottom: 3px dashed #ff811c;
+            /* right: 0; */
+            left: 0;
+            top: 54px;
+            z-index: -1;
           }
         }
         .__law-ttl {

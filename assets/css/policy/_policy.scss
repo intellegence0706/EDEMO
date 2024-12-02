@@ -22,7 +22,8 @@
       padding-left: 144px;
       padding-top: 218px;
       @include media-sp {
-        font-size: 27px;
+        font-size: 25px;
+
         padding-left: 16px;
         padding-top: 34px;
       }
@@ -48,6 +49,7 @@
           font-size: 28px;
           font-weight: 700;
           color: #ff811c;
+          text-align: center;
         }
         .__ttl-ctn {
           padding-top: 43px;
