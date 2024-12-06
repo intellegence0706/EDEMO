@@ -3,6 +3,10 @@
   font-family: "KozGoPr6NRegular";
   src: url(../fonts/KozGoPr6NRegular.woff);
 }
+@font-face {
+  font-family: "din";
+  src: url(../fonts/DINAlternate-Bold.woff);
+}
 /**
 * @file _reset.scss
 **/
@@ -3282,8 +3286,10 @@ figure {
 @media screen and (max-width: 769px) {
   #member .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #member .p-area .__container .__area-head::after {
@@ -3296,7 +3302,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #member .p-area .__container .__area-head::after {
@@ -3312,6 +3318,7 @@ figure {
 @media screen and (max-width: 769px) {
   #member .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #member .p-area .__container .__area-head p {
@@ -3357,7 +3364,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -3871,8 +3878,10 @@ figure {
 @media screen and (max-width: 769px) {
   #choose_company .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #choose_company .p-area .__container .__area-head::after {
@@ -3885,7 +3894,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #choose_company .p-area .__container .__area-head::after {
@@ -3901,6 +3910,7 @@ figure {
 @media screen and (max-width: 769px) {
   #choose_company .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #choose_company .p-area .__container .__area-head p {
@@ -3946,7 +3956,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -4742,8 +4752,10 @@ figure {
 @media screen and (max-width: 769px) {
   #company .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #company .p-area .__container .__area-head::after {
@@ -4756,7 +4768,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #company .p-area .__container .__area-head::after {
@@ -4772,6 +4784,7 @@ figure {
 @media screen and (max-width: 769px) {
   #company .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #company .p-area .__container .__area-head p {
@@ -4817,7 +4830,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -5496,8 +5509,10 @@ figure {
 @media screen and (max-width: 769px) {
   #faq .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #faq .p-area .__container .__area-head::after {
@@ -5510,7 +5525,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #faq .p-area .__container .__area-head::after {
@@ -5526,6 +5541,7 @@ figure {
 @media screen and (max-width: 769px) {
   #faq .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #faq .p-area .__container .__area-head p {
@@ -5571,7 +5587,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -6970,8 +6986,10 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #unneeditem_where .p-area .__container .__area-head::after {
@@ -6984,7 +7002,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-area .__container .__area-head::after {
@@ -7000,6 +7018,7 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #unneeditem_where .p-area .__container .__area-head p {
@@ -7045,7 +7064,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -7979,6 +7998,7 @@ figure {
 #unneeditem .p-collection .__container .__collection-items .__collection-item .__item-container .__item-ttl .__item-num {
   font-size: 83px;
   font-weight: 900;
+  font-family: "din";
   color: #ff811c;
   font-family: "KozGoPr6NRegular";
 }
@@ -9539,13 +9559,15 @@ figure {
   background-color: white;
   color: #ff811c;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
+  padding-bottom: 8px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-faq .__container .__faq-list .__faq-items .__faq-item .__faq-q .__q-mark {
     width: 30px;
     height: 30px;
     font-size: 20px;
+    padding-bottom: 5px;
   }
 }
 #unneeditem .p-faq .__container .__faq-list .__faq-items .__faq-item .__faq-q .__q-ctn {
@@ -9807,8 +9829,10 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #unneeditem .p-area .__container .__area-head::after {
@@ -9821,7 +9845,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-area .__container .__area-head::after {
@@ -9837,6 +9861,7 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #unneeditem .p-area .__container .__area-head p {
@@ -9882,7 +9907,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -10011,14 +10036,26 @@ figure {
   justify-content: flex-start;
   gap: 38px;
   padding-top: 16px;
+  position: relative;
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-pagettl .__container h2 {
-    font-size: 28px;
+    font-size: 22px;
     padding-top: 8px;
+    padding-bottom: 10px;
   }
   #cleanning .p-pagettl .__container h2 figure {
-    max-width: 70px;
+    max-width: 44px;
+  }
+}
+#cleanning .p-pagettl .__container h2 figure {
+  position: absolute;
+  max-width: 100px;
+  right: -26%;
+}
+@media screen and (max-width: 769px) {
+  #cleanning .p-pagettl .__container h2 figure {
+    right: -26%;
   }
 }
 #cleanning .p-pagettl .__container .__page-ttl-badge {
@@ -10199,6 +10236,7 @@ figure {
 }
 #cleanning .p-graph .__container .__graph-body .__graph-ctn .__ctn-ttl {
   max-width: 820px;
+  margin: auto;
 }
 #cleanning .p-graph .__container .__graph-body .__graph-ctn .__ctn-desc {
   margin-top: 20px;
@@ -10302,6 +10340,7 @@ figure {
   #cleanning .p-unneed_service .__container .__unneed_service-ttl figure span {
     padding-top: 0px;
     padding-left: 10px;
+    font-size: 28px;
   }
 }
 #cleanning .p-unneed_service .__container .__unneed_service-ttl::before {
@@ -10318,14 +10357,22 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-unneed_service .__container .__unneed_service-ttl::before {
-    display: none;
+    content: "";
+    position: absolute;
+    width: 104px;
+    height: 99px;
+    background-image: url(../img/cleanning/img-unneed-service-ttl-before.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: -109%;
+    left: -9%;
   }
 }
 #cleanning .p-unneed_service .__container .__unneed_service-ttl::after {
   content: "";
   position: absolute;
   width: 100%;
-  height: 25px;
   background-image: url(../img/cleanning/img-unneed-service-after.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -10333,12 +10380,13 @@ figure {
   bottom: -14%;
   left: 0%;
   z-index: -1;
+  height: 40px;
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-unneed_service .__container .__unneed_service-ttl::after {
     background-size: cover;
     height: 9px;
-    bottom: 4%;
+    bottom: -7%;
   }
 }
 #cleanning .p-unneed_service .__container .__absolute {
@@ -10349,7 +10397,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-unneed_service .__container .__absolute {
-    right: 2%;
+    right: 3%;
     max-width: 26px;
     top: 4%;
   }
@@ -10558,7 +10606,7 @@ figure {
   justify-content: center;
   padding-right: 16px;
   padding-left: 16px;
-  background-image: url(../img/unneeditem/bg-collection.jpg);
+  background-image: url(../img/cleanning/bg-collection.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10581,7 +10629,7 @@ figure {
   flex-direction: column;
 }
 #cleanning .p-collection .__container .__collection-ttl .__ttl-sub {
-  background-image: url(../img/unneeditem/img-collection-sub.png);
+  background-image: url(../img/cleanning/img-collection-sub.png);
   width: 419px;
   background-repeat: no-repeat;
   background-position: center;
@@ -10673,7 +10721,7 @@ figure {
   margin-right: auto;
 }
 #cleanning .p-collection .__container .__collection-items .__collection-item:nth-child(2)::after {
-  background-image: url(../img/unneeditem/img-collection-item_2.png);
+  background-image: url(../img/cleanning/img-collection-item_2.png);
   right: -25%;
 }
 @media screen and (max-width: 769px) {
@@ -10739,7 +10787,7 @@ figure {
   font-size: 83px;
   font-weight: 900;
   color: #0d99ff;
-  font-family: "KozGoPr6NRegular";
+  font-family: "din";
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-collection .__container .__collection-items .__collection-item .__item-container .__item-ttl .__item-num {
@@ -10773,7 +10821,8 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-optional_service {
-    background-size: cover;
+    background-size: 410%;
+    background-repeat: repeat;
   }
 }
 #cleanning .p-optional_service .__service-ttl {
@@ -10905,6 +10954,53 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__img-block .__item-btn::after {
+    top: 34%;
+  }
+}
+#cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn {
+  margin-top: 150px;
+  padding: 19px 97px;
+  border-radius: 100px;
+  color: white;
+  background-color: #0d99ff;
+  position: relative;
+  transition: all 0.3s;
+  font-size: 22px;
+  font-weight: 500;
+  box-shadow: 5px 5px 0 #949eb0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -moz-max-content;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 769px) {
+  #cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn {
+    margin-top: 40px;
+    padding: 10px 97px;
+  }
+}
+#cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn:hover {
+  transform: translateY(5px);
+  box-shadow: unset;
+}
+#cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 20px;
+  background-image: url(../img/unneeditem/img-btn-after.png);
+  background-position: center;
+  background-size: 100% 100%;
+  right: 10px;
+  top: 38%;
+}
+@media screen and (max-width: 769px) {
+  #cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn::after {
     top: 34%;
   }
 }
@@ -11061,6 +11157,8 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__sublists-btn {
     padding: 12px 97px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 #cleanning .p-optional_service .__container .__service-item .__optional_service-item__body .__sublists-btn:hover {
@@ -11121,7 +11219,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-size .__container .__size-ttl::after {
+    bottom: -17px;
     left: 0;
+    height: 10px;
   }
 }
 #cleanning .p-size .__container .__size-body {
@@ -11584,6 +11684,10 @@ figure {
   background-color: white;
   border-radius: 67px;
   position: relative;
+  background-image: url(../img/cleanning/img-flow-container.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-flow .__container {
@@ -11616,9 +11720,15 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-flow .__container .__flow-main .__flow-step {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 40px 16px;
   }
+}
+#cleanning .p-flow .__container .__flow-main .__flow-step:first-child::after {
+  background-image: url(../img/cleanning/img-flow-item-after-pink.png);
+}
+#cleanning .p-flow .__container .__flow-main .__flow-step:nth-child(2)::after {
+  background-image: url(../img/cleanning/img-flow-item-after-pink.png);
 }
 #cleanning .p-flow .__container .__flow-main .__flow-step::after {
   content: "";
@@ -11633,7 +11743,8 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-flow .__container .__flow-main .__flow-step::after {
-    transform: translateX(26%);
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 #cleanning .p-flow .__container .__flow-main .__flow-step:last-child::after {
@@ -11769,7 +11880,7 @@ figure {
   padding-right: 16px;
   padding-left: 16px;
   background-color: #0183cf !important;
-  margin-top: -20px;
+  margin-top: 0;
   width: 100%;
 }
 @media screen and (max-width: 769px) {
@@ -11851,15 +11962,21 @@ figure {
   position: absolute;
   content: "";
   width: 256px;
-  height: 211px;
+  height: 182px;
   background-image: url(../img/unneeditem/img-flow-contact-girl.png);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  top: -289%;
+  background-size: cover;
+  top: -251%;
   right: 3%;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 600px) {
+  #cleanning .p-flow .__container .__flow-main .__flow-step .p-contact .container .__btn-g .line-contact::before {
+    top: -400px;
+    right: -50px;
+  }
+}
+@media screen and (max-width: 426px) {
   #cleanning .p-flow .__container .__flow-main .__flow-step .p-contact .container .__btn-g .line-contact::before {
     width: 166px;
     height: 103px;
@@ -12029,14 +12146,19 @@ figure {
   text-align: center;
   padding-left: 50px;
   position: relative;
+  text-shadow: 3px 3px 0px #1b66b2, -3px -3px 0px #1b66b2, 3px -3px 0px #1b66b2, -3px 3px 0px #1b66b2; /* bottom-left shadow */
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-giveme .__container .__giveme-ttl {
-    font-size: 31px;
+    font-size: 21px;
     padding-left: 0;
     font-weight: 900;
     color: white;
-    line-height: 55px;
+    line-height: 37px;
+    max-width: 192px;
+    margin-right: 0;
+    text-align: left;
+    margin-left: auto;
   }
 }
 #cleanning .p-giveme .__container .__giveme-ttl::after {
@@ -12068,6 +12190,11 @@ figure {
   z-index: 10;
   color: #126aa5;
 }
+@media screen and (max-width: 769px) {
+  #cleanning .p-giveme .__container .__giveme-ctn {
+    margin-top: 33px;
+  }
+}
 #cleanning .p-giveme .__container .__absolute {
   position: absolute;
   width: 162px;
@@ -12078,10 +12205,10 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-giveme .__container .__absolute {
     position: absolute;
-    width: 122px;
+    width: 106px;
     z-index: 9;
-    top: 10%;
-    left: 25px;
+    top: 1%;
+    left: 13px;
     z-index: -1;
   }
 }
@@ -12105,6 +12232,12 @@ figure {
   padding-right: 40px;
   padding-left: 40px;
 }
+@media screen and (max-width: 769px) {
+  #cleanning .p-faq .__container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
 #cleanning .p-faq .__container .__faq-list {
   width: 100%;
 }
@@ -12113,6 +12246,11 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+}
+@media screen and (max-width: 769px) {
+  #cleanning .p-faq .__container .__faq-list:first-child .__list-ttl::before {
+    background-size: contain;
+  }
 }
 #cleanning .p-faq .__container .__faq-list .__list-ttl {
   padding: 12px 100px;
@@ -12145,10 +12283,10 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-faq .__container .__faq-list .__list-ttl::before {
-    width: 80px;
-    height: 76px;
-    left: -15%;
     top: -25%;
+    width: 54px;
+    height: 76px;
+    left: -8%;
   }
 }
 #cleanning .p-faq .__container .__faq-list .__faq-items {
@@ -12201,13 +12339,15 @@ figure {
   background-color: white;
   color: #ff811c;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
+  padding-bottom: 8px;
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-faq .__container .__faq-list .__faq-items .__faq-item .__faq-q .__q-mark {
     width: 30px;
     height: 30px;
     font-size: 20px;
+    padding-bottom: 5px;
   }
 }
 #cleanning .p-faq .__container .__faq-list .__faq-items .__faq-item .__faq-q .__q-ctn {
@@ -12392,21 +12532,22 @@ figure {
 #cleanning .p-contact .__container .__btn-g .line-contact::before {
   position: absolute;
   content: "";
-  width: 256px;
-  height: 267px;
-  background-image: url(../img/top/img-contact-girl.png);
-  background-position: center;
+  width: 336px;
+  height: 211px;
+  background-image: url(../img/cleanning/img-contact-girl.png);
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  top: -366%;
+  background-size: cover;
+  top: -286%;
   right: 3%;
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-contact .__container .__btn-g .line-contact::before {
     width: 166px;
-    height: 178px;
-    top: -540%;
-    right: 0;
+    height: 117px;
+    top: -445%;
+    right: -12px;
+    background-size: 100%;
   }
 }
 #cleanning .p-contact .__container .__btn-g .line-contact img {
@@ -12427,7 +12568,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-area {
-    background-size: 300%;
+    background-size: 170%;
     background-repeat: repeat;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -12459,8 +12600,10 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #cleanning .p-area .__container .__area-head::after {
@@ -12473,7 +12616,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-area .__container .__area-head::after {
@@ -12489,6 +12633,7 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #cleanning .p-area .__container .__area-head p {
@@ -12530,16 +12675,27 @@ figure {
   font-size: 28px;
   font-weight: 700;
   color: #0d99ff;
-  background-image: url(../img/member/bg-area-map.png);
+  background-image: url(../img/cleanning/bg-area-map.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-area .__container .__area-map .__map-ctn {
     padding: 17px 17px 17px 65px;
+    max-width: 487px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #0d99ff;
+    background-image: url(../img/cleanning/bg-area-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
   }
 }
 #cleanning .p-area .__container .__area-map .__map-ctn::after {
@@ -12556,7 +12712,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-area .__container .__area-map .__map-ctn::after {
-    right: -3%;
+    right: -4%;
+    background-size: contain;
+    width: 38px;
   }
 }
 #cleanning .p-area .__container .__area-body {
@@ -13696,6 +13854,7 @@ figure {
 #sorting .p-collection .__container .__collection-items .__collection-item .__item-container .__item-ttl .__item-num {
   font-size: 83px;
   font-weight: 900;
+  font-family: "din";
   color: #62af4e;
   font-family: "KozGoPr6NRegular";
 }
@@ -14687,7 +14846,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #sorting .p-flow .__container .__flow-main .__flow-step {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 40px 16px;
   }
 }
@@ -15299,13 +15458,15 @@ figure {
   background-color: white;
   color: #ff811c;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
+  padding-bottom: 8px;
 }
 @media screen and (max-width: 769px) {
   #sorting .p-faq .__container .__faq-list .__faq-items .__faq-item .__faq-q .__q-mark {
     width: 30px;
     height: 30px;
     font-size: 20px;
+    padding-bottom: 5px;
   }
 }
 #sorting .p-faq .__container .__faq-list .__faq-items .__faq-item .__faq-q .__q-ctn {
@@ -15567,8 +15728,10 @@ figure {
 @media screen and (max-width: 769px) {
   #sorting .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #sorting .p-area .__container .__area-head::after {
@@ -15581,7 +15744,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #sorting .p-area .__container .__area-head::after {
@@ -15597,6 +15760,7 @@ figure {
 @media screen and (max-width: 769px) {
   #sorting .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #sorting .p-area .__container .__area-head p {
@@ -15642,7 +15806,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -16236,8 +16400,10 @@ figure {
 @media screen and (max-width: 769px) {
   #work .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #work .p-area .__container .__area-head::after {
@@ -16250,7 +16416,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #work .p-area .__container .__area-head::after {
@@ -16266,6 +16432,7 @@ figure {
 @media screen and (max-width: 769px) {
   #work .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #work .p-area .__container .__area-head p {
@@ -16311,7 +16478,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -17730,8 +17897,10 @@ figure {
 @media screen and (max-width: 769px) {
   #plan .p-area .__container .__area-head {
     background-size: cover;
-    padding-left: 16px;
-    padding-top: 149px;
+    padding-left: 8px;
+    padding-top: 39px;
+    padding-right: 8px;
+    background-image: url(../img/img-area@2x.png);
   }
 }
 #plan .p-area .__container .__area-head::after {
@@ -17744,7 +17913,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 28%;
+  left: 22%;
 }
 @media screen and (max-width: 769px) {
   #plan .p-area .__container .__area-head::after {
@@ -17760,6 +17929,7 @@ figure {
 @media screen and (max-width: 769px) {
   #plan .p-area .__container .__area-head .__head-ttl {
     font-size: 30px;
+    text-align: center;
   }
 }
 #plan .p-area .__container .__area-head p {
@@ -17805,7 +17975,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  padding: 45px 43px 45px 113px;
+  padding: 45px 43px 45px 140px;
   position: relative;
 }
 @media screen and (max-width: 769px) {

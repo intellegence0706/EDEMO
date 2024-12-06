@@ -1282,8 +1282,10 @@
         position: relative;
         @include media-sp {
           background-size: cover;
-          padding-left: 16px;
-          padding-top: 149px;
+          padding-left: 8px;
+          padding-top: 39px;
+          padding-right: 8px;
+          background-image: url(../img/img-area@2x.png);
         }
         &::after {
           content: "";
@@ -1295,7 +1297,7 @@
           background-repeat: no-repeat;
           background-size: 100% 100%;
           bottom: -15%;
-          left: 28%;
+          left: 22%;
           @include media-sp {
             width: 195px;
             height: 40px;
@@ -1307,6 +1309,7 @@
           font-weight: 700;
           @include media-sp {
             font-size: 30px;
+            text-align: center;
           }
         }
         p {
@@ -1348,7 +1351,7 @@
           background-repeat: no-repeat;
           background-position: center;
           background-size: 100% 100%;
-          padding: 45px 43px 45px 113px;
+          padding: 45px 43px 45px 140px;
           position: relative;
           @include media-sp {
             padding: 17px 17px 17px 65px;

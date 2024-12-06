@@ -996,6 +996,7 @@
               .__item-num {
                 font-size: 83px;
                 font-weight: 900;
+                font-family: $font-din;
                 color: #62af4e;
                 font-family: $font-ko;
                 @include media-sp {
@@ -1908,7 +1909,7 @@
           background-color: #e4f4ff;
           position: relative;
           @include media-sp {
-            flex-direction: column;
+            flex-direction: column-reverse;
             padding: 40px 16px;
           }
           &::after {
@@ -2467,11 +2468,13 @@
                 background-color: white;
                 color: #ff811c;
                 font-weight: 700;
-                font-size: 30px;
+                font-size: 28px;
+                padding-bottom: 8px;
                 @include media-sp {
                   width: 30px;
                   height: 30px;
                   font-size: 20px;
+                  padding-bottom: 5px;
                 }
               }
               .__q-ctn {
@@ -2720,8 +2723,10 @@
         position: relative;
         @include media-sp {
           background-size: cover;
-          padding-left: 16px;
-          padding-top: 149px;
+          padding-left: 8px;
+          padding-top: 39px;
+          padding-right: 8px;
+          background-image: url(../img/img-area@2x.png);
         }
         &::after {
           content: "";
@@ -2733,7 +2738,7 @@
           background-repeat: no-repeat;
           background-size: 100% 100%;
           bottom: -15%;
-          left: 28%;
+          left: 22%;
           @include media-sp {
             width: 195px;
             height: 40px;
@@ -2745,6 +2750,7 @@
           font-weight: 700;
           @include media-sp {
             font-size: 30px;
+            text-align: center;
           }
         }
         p {
@@ -2786,7 +2792,7 @@
           background-repeat: no-repeat;
           background-position: center;
           background-size: 100% 100%;
-          padding: 45px 43px 45px 113px;
+          padding: 45px 43px 45px 140px;
           position: relative;
           @include media-sp {
             padding: 17px 17px 17px 65px;

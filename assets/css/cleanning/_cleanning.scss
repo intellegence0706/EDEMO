@@ -61,11 +61,22 @@
         justify-content: flex-start;
         gap: 38px;
         padding-top: 16px;
+        position: relative;
+
         @include media-sp {
-          font-size: 28px;
+          font-size: 22px;
           padding-top: 8px;
+          padding-bottom: 10px;
           figure {
-            max-width: 70px;
+            max-width: 44px;
+          }
+        }
+        figure {
+          position: absolute;
+          max-width: 100px;
+          right: -26%;
+          @include media-sp {
+            right: -26%;
           }
         }
       }
@@ -244,6 +255,7 @@
           padding-top: 60px;
           .__ctn-ttl {
             max-width: 820px;
+            margin: auto;
           }
           .__ctn-desc {
             margin-top: 20px;
@@ -335,6 +347,7 @@
             @include media-sp {
               padding-top: 0px;
               padding-left: 10px;
+              font-size: 28px;
             }
           }
         }
@@ -349,9 +362,17 @@
           background-size: 100% 100%;
           top: -19%;
           left: -9%;
-
           @include media-sp {
-            display: none;
+            content: "";
+            position: absolute;
+            width: 104px;
+            height: 99px;
+            background-image: url(../img/cleanning/img-unneed-service-ttl-before.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            top: -109%;
+            left: -9%;
           }
         }
 
@@ -359,7 +380,6 @@
           content: "";
           position: absolute;
           width: 100%;
-          height: 25px;
           background-image: url(../img/cleanning/img-unneed-service-after.png);
           background-repeat: no-repeat;
           background-position: center;
@@ -367,10 +387,11 @@
           bottom: -14%;
           left: 0%;
           z-index: -1;
+          height: 40px;
           @include media-sp {
             background-size: cover;
             height: 9px;
-            bottom: 4%;
+            bottom: -7%;
           }
         }
       }
@@ -381,7 +402,7 @@
         max-width: 57px;
         top: 5.5%;
         @include media-sp {
-          right: 2%;
+          right: 3%;
           max-width: 26px;
           top: 4%;
         }
@@ -574,7 +595,7 @@
     justify-content: center;
     padding-right: 16px;
     padding-left: 16px;
-    background-image: url(../img/unneeditem/bg-collection.jpg);
+    background-image: url(../img/cleanning/bg-collection.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -592,7 +613,7 @@
         gap: 20px;
         flex-direction: column;
         .__ttl-sub {
-          background-image: url(../img/unneeditem/img-collection-sub.png);
+          background-image: url(../img/cleanning/img-collection-sub.png);
           width: 419px;
           background-repeat: no-repeat;
           background-position: center;
@@ -671,7 +692,7 @@
           &:nth-child(2) {
             margin-right: auto;
             &::after {
-              background-image: url(../img/unneeditem/img-collection-item_2.png);
+              background-image: url(../img/cleanning/img-collection-item_2.png);
               right: -25%;
               @include media-sp {
                 right: unset;
@@ -728,7 +749,7 @@
                 font-size: 83px;
                 font-weight: 900;
                 color: #0d99ff;
-                font-family: $font-ko;
+                font-family: $font-din;
                 @include media-sp {
                   font-size: 60px;
                 }
@@ -764,7 +785,8 @@
     background-size: cover;
     background-position: center;
     @include media-sp {
-      background-size: cover;
+      background-size: 410%;
+      background-repeat: repeat;
     }
     .__service-ttl {
       width: 100%;
@@ -826,6 +848,7 @@
             align-items: flex-start;
             gap: 12px;
             padding-top: 20px;
+
             @include media-sp {
               flex-direction: column;
             }
@@ -878,6 +901,49 @@
                   @include media-sp {
                     top: 34%;
                   }
+                }
+              }
+            }
+
+            .__item-btn {
+              margin-top: 150px;
+              padding: 19px 97px;
+              border-radius: 100px;
+              color: white;
+              background-color: #0d99ff;
+              position: relative;
+              transition: all 0.3s;
+              font-size: 22px;
+              font-weight: 500;
+              box-shadow: 5px 5px 0 #949eb0;
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: max-content;
+              margin-right: auto;
+              margin-left: auto;
+              margin-bottom: 40px;
+              @include media-sp {
+                margin-top: 40px;
+                padding: 10px 97px;
+              }
+              &:hover {
+                transform: translateY(5px);
+                box-shadow: unset;
+              }
+              &::after {
+                content: "";
+                position: absolute;
+                width: 13px;
+                height: 20px;
+                background-image: url(../img/unneeditem/img-btn-after.png);
+                background-position: center;
+                background-size: 100% 100%;
+                right: 10px;
+                top: 38%;
+                @include media-sp {
+                  top: 34%;
                 }
               }
             }
@@ -1024,6 +1090,8 @@
             margin-left: auto;
             @include media-sp {
               padding: 12px 97px;
+              margin-left: auto;
+              margin-right: auto;
             }
             &:hover {
               transform: translateY(5px);
@@ -1084,7 +1152,9 @@
           bottom: -25px;
           left: 0;
           @include media-sp {
+            bottom: -17px;
             left: 0;
+            height: 10px;
           }
         }
       }
@@ -1510,6 +1580,10 @@
       background-color: white;
       border-radius: 67px;
       position: relative;
+      background-image: url(../img/cleanning/img-flow-container.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: 100%;
       @include media-sp {
         padding: 45px 16px;
 
@@ -1535,8 +1609,18 @@
           background-color: #e4f4ff;
           position: relative;
           @include media-sp {
-            flex-direction: column;
+            flex-direction: column-reverse;
             padding: 40px 16px;
+          }
+          &:first-child {
+            &::after {
+              background-image: url(../img/cleanning/img-flow-item-after-pink.png);
+            }
+          }
+          &:nth-child(2) {
+            &::after {
+              background-image: url(../img/cleanning/img-flow-item-after-pink.png);
+            }
           }
           &::after {
             content: "";
@@ -1549,7 +1633,8 @@
             background-size: 100% 100%;
             bottom: -59px;
             @include media-sp {
-              transform: translateX(26%);
+              left: 50%;
+              transform: translateX(-50%);
             }
           }
 
@@ -1678,7 +1763,7 @@
             padding-right: 16px;
             padding-left: 16px;
             background-color: #0183cf !important;
-            margin-top: -20px;
+            margin-top: -0;
             width: 100%;
             @include media-sp {
               background-color: #0183cf !important;
@@ -1748,14 +1833,18 @@
                     position: absolute;
                     content: "";
                     width: 256px;
-                    height: 211px;
+                    height: 182px;
                     background-image: url(../img/unneeditem/img-flow-contact-girl.png);
-                    background-position: center;
+                    background-position: top;
                     background-repeat: no-repeat;
-                    background-size: 100% 100%;
-                    top: -289%;
+                    background-size: cover;
+                    top: -251%;
                     right: 3%;
-                    @include media-sp {
+                    @include responsive(600px) {
+                      top: -400px;
+                      right: -50px;
+                    }
+                    @include responsive(426px) {
                       width: 166px;
                       height: 103px;
                       top: -409%;
@@ -1917,12 +2006,20 @@
         text-align: center;
         padding-left: 50px;
         position: relative;
+        text-shadow: 3px 3px 0px #1b66b2,
+          /* top-left shadow */ -3px -3px 0px #1b66b2,
+          /* bottom-right shadow */ 3px -3px 0px #1b66b2,
+          /* top-right shadow */ -3px 3px 0px #1b66b2; /* bottom-left shadow */
         @include media-sp {
-          font-size: 31px;
+          font-size: 21px;
           padding-left: 0;
           font-weight: 900;
           color: white;
-          line-height: 55px;
+          line-height: 37px;
+          max-width: 192px;
+          margin-right: 0;
+          text-align: left;
+          margin-left: auto;
         }
 
         &::after {
@@ -1952,6 +2049,9 @@
         position: relative;
         z-index: 10;
         color: #126aa5;
+        @include media-sp {
+          margin-top: 33px;
+        }
       }
       .__absolute {
         position: absolute;
@@ -1961,10 +2061,10 @@
         left: 34px;
         @include media-sp {
           position: absolute;
-          width: 122px;
+          width: 106px;
           z-index: 9;
-          top: 10%;
-          left: 25px;
+          top: 1%;
+          left: 13px;
           z-index: -1;
         }
       }
@@ -1987,6 +2087,10 @@
       padding-bottom: 130px;
       padding-right: 40px;
       padding-left: 40px;
+      @include media-sp {
+        padding-right: 16px;
+        padding-left: 16px;
+      }
       .__faq-list {
         width: 100%;
 
@@ -1997,6 +2101,9 @@
               background-repeat: no-repeat;
               background-position: center;
               background-size: 100% 100%;
+              @include media-sp {
+                background-size: contain;
+              }
             }
           }
         }
@@ -2026,10 +2133,10 @@
             left: -10%;
             top: -21%;
             @include media-sp {
-              width: 80px;
-              height: 76px;
-              left: -15%;
               top: -25%;
+              width: 54px;
+              height: 76px;
+              left: -8%;
             }
           }
         }
@@ -2074,11 +2181,13 @@
                 background-color: white;
                 color: #ff811c;
                 font-weight: 700;
-                font-size: 30px;
+                font-size: 28px;
+                padding-bottom: 8px;
                 @include media-sp {
                   width: 30px;
                   height: 30px;
                   font-size: 20px;
+                  padding-bottom: 5px;
                 }
               }
               .__q-ctn {
@@ -2258,19 +2367,20 @@
           &::before {
             position: absolute;
             content: "";
-            width: 256px;
-            height: 267px;
-            background-image: url(../img/top/img-contact-girl.png);
-            background-position: center;
+            width: 336px;
+            height: 211px;
+            background-image: url(../img/cleanning/img-contact-girl.png);
+            background-position: top;
             background-repeat: no-repeat;
-            background-size: 100% 100%;
-            top: -366%;
+            background-size: cover;
+            top: -286%;
             right: 3%;
             @include media-sp {
               width: 166px;
-              height: 178px;
-              top: -540%;
-              right: 0;
+              height: 117px;
+              top: -445%;
+              right: -12px;
+              background-size: 100%;
             }
           }
           img {
@@ -2295,7 +2405,7 @@
     background-position: center;
 
     @include media-sp {
-      background-size: 300%;
+      background-size: 170%;
       background-repeat: repeat;
       padding-top: 80px;
       padding-bottom: 80px;
@@ -2321,8 +2431,10 @@
         position: relative;
         @include media-sp {
           background-size: cover;
-          padding-left: 16px;
-          padding-top: 149px;
+          padding-left: 8px;
+          padding-top: 39px;
+          padding-right: 8px;
+          background-image: url(../img/img-area@2x.png);
         }
         &::after {
           content: "";
@@ -2334,7 +2446,8 @@
           background-repeat: no-repeat;
           background-size: 100% 100%;
           bottom: -15%;
-          left: 28%;
+          left: 50%;
+          transform: translateX(-50%);
           @include media-sp {
             width: 195px;
             height: 40px;
@@ -2346,6 +2459,7 @@
           font-weight: 700;
           @include media-sp {
             font-size: 30px;
+            text-align: center;
           }
         }
         p {
@@ -2383,14 +2497,25 @@
           font-size: 28px;
           font-weight: 700;
           color: #0d99ff;
-          background-image: url(../img/member/bg-area-map.png);
+          background-image: url(../img/cleanning/bg-area-map.png);
           background-repeat: no-repeat;
           background-position: center;
           background-size: 100% 100%;
-          padding: 45px 43px 45px 113px;
+          padding: 45px 43px 45px 140px;
           position: relative;
           @include media-sp {
             padding: 17px 17px 17px 65px;
+            max-width: 487px;
+            width: 100%;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 50px;
+            color: #0d99ff;
+            background-image: url(../img/cleanning/bg-area-map.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            position: relative;
           }
           &::after {
             content: "";
@@ -2404,7 +2529,9 @@
             right: -6%;
             top: -20%;
             @include media-sp {
-              right: -3%;
+              right: -4%;
+              background-size: contain;
+              width: 38px;
             }
           }
         }

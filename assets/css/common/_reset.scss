@@ -11,6 +11,14 @@
   border: 0;
 }
 
+// *,
+// ::after,
+// ::before {
+//   @include media-sp {
+//     font-size: calc(1 / 375 * 100vw);
+//   }
+// }
+
 a {
   font-size: 16px;
   color: #351a0e;
