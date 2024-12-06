@@ -7134,7 +7134,15 @@ figure {
   padding-bottom: 65px;
   margin-top: -4px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 600px) {
+  #unneeditem .p-pagettl {
+    height: 186px;
+    background-position: 95%;
+    background-size: cover;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 426px) {
   #unneeditem .p-pagettl {
     height: 186px;
     background-position: 44%;
@@ -7156,7 +7164,6 @@ figure {
   #unneeditem .p-pagettl .__container {
     padding-top: 20px;
     padding-left: 16px;
-    align-items: flex-start;
   }
 }
 #unneeditem .p-pagettl .__container p {
@@ -7207,7 +7214,6 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-pagettl .__container .__page-ttl-badge {
@@ -7223,30 +7229,30 @@ figure {
     max-width: 58px;
   }
 }
-#unneeditem .p-contact {
+#unneeditem .p-contact-1 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-right: 16px;
   padding-left: 16px;
-  background-color: #fff5ed !important;
+  background-color: #fff5ed;
   margin-top: -20px;
   position: relative;
   z-index: 10;
 }
-#unneeditem .p-contact .__container {
+#unneeditem .p-contact-1 .__container {
   padding-top: 52px;
   padding-bottom: 43px;
 }
-#unneeditem .p-contact .__container figure {
+#unneeditem .p-contact-1 .__container figure {
   width: 670px;
 }
 @media screen and (max-width: 769px) {
-  #unneeditem .p-contact .__container figure {
+  #unneeditem .p-contact-1 .__container figure {
     width: auto;
   }
 }
-#unneeditem .p-contact .__container .__btn-g {
+#unneeditem .p-contact-1 .__container .__btn-g {
   padding-top: 26px;
   display: flex;
   align-items: center;
@@ -7254,11 +7260,11 @@ figure {
   gap: 28px;
 }
 @media screen and (max-width: 769px) {
-  #unneeditem .p-contact .__container .__btn-g {
+  #unneeditem .p-contact-1 .__container .__btn-g {
     flex-direction: column;
   }
 }
-#unneeditem .p-contact .__container .__btn-g .mail-contact {
+#unneeditem .p-contact-1 .__container .__btn-g .mail-contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7273,16 +7279,16 @@ figure {
   box-shadow: 5px 5px 2px #545454;
 }
 @media screen and (max-width: 769px) {
-  #unneeditem .p-contact .__container .__btn-g .mail-contact {
+  #unneeditem .p-contact-1 .__container .__btn-g .mail-contact {
     font-size: 20px;
     gap: 20px;
     width: 100%;
   }
 }
-#unneeditem .p-contact .__container .__btn-g .mail-contact img {
+#unneeditem .p-contact-1 .__container .__btn-g .mail-contact img {
   max-width: 56px;
 }
-#unneeditem .p-contact .__container .__btn-g .line-contact {
+#unneeditem .p-contact-1 .__container .__btn-g .line-contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7298,13 +7304,13 @@ figure {
   position: relative;
 }
 @media screen and (max-width: 769px) {
-  #unneeditem .p-contact .__container .__btn-g .line-contact {
+  #unneeditem .p-contact-1 .__container .__btn-g .line-contact {
     font-size: 20px;
     gap: 20px;
     width: 100%;
   }
 }
-#unneeditem .p-contact .__container .__btn-g .line-contact::before {
+#unneeditem .p-contact-1 .__container .__btn-g .line-contact::before {
   position: absolute;
   content: "";
   width: 256px;
@@ -7317,14 +7323,20 @@ figure {
   right: 3%;
 }
 @media screen and (max-width: 769px) {
-  #unneeditem .p-contact .__container .__btn-g .line-contact::before {
+  #unneeditem .p-contact-1 .__container .__btn-g .line-contact::before {
+    top: -569%;
+    right: 40px;
     width: 166px;
     height: 178px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #unneeditem .p-contact-1 .__container .__btn-g .line-contact::before {
     top: -540%;
     right: 0;
   }
 }
-#unneeditem .p-contact .__container .__btn-g .line-contact img {
+#unneeditem .p-contact-1 .__container .__btn-g .line-contact img {
   max-width: 56px;
 }
 #unneeditem .p-clean {
@@ -7346,6 +7358,8 @@ figure {
 #unneeditem .p-clean .__container {
   padding-top: 104px;
   padding-bottom: 50px;
+  position: relative;
+  z-index: 10;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-clean .__container {
@@ -7362,6 +7376,12 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem .p-clean .__container .__clean-ttl {
     max-width: 300px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #unneeditem .p-clean .__container .__clean-ttl {
+    padding-bottom: 60px;
   }
 }
 #unneeditem .p-clean .__container .__clean-ctn {
@@ -7374,7 +7394,6 @@ figure {
   padding-top: 34px;
   padding-bottom: 32px;
   position: relative;
-  z-index: 10;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-clean .__container .__clean-ctn {
@@ -7395,11 +7414,17 @@ figure {
   background-size: 100% 100%;
   left: 0;
   top: -60%;
+  z-index: -1;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-clean .__container .__clean-ctn::before {
     width: 66px;
     height: 43px;
+    top: -41px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #unneeditem .p-clean .__container .__clean-ctn::before {
     top: -142px;
   }
 }
@@ -7444,6 +7469,7 @@ figure {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: white;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-clean .__container .__clean-items .__clean-item {
@@ -7601,8 +7627,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-unneed_service .__container .__unneed_service-ttl figure span {
-    padding-top: 0px;
+    padding-top: 10px;
     padding-left: 10px;
+    font-size: 26px;
   }
 }
 #unneeditem .p-unneed_service .__container .__unneed_service-ttl::before {
@@ -7649,9 +7676,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-unneed_service .__container .__absolute {
-    right: 6%;
+    right: 50px;
     max-width: 18px;
-    top: 5%;
+    top: 108px;
   }
 }
 #unneeditem .p-unneed_service .__container .__unneed_service-ctn {
@@ -7783,7 +7810,7 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem .p-unneed_service .__container .__unneed_service-work .__work-cases .__case-item .__before::before {
     width: 125px;
-    top: 10px;
+    top: 0;
     height: 43px;
   }
 }
@@ -7827,6 +7854,7 @@ figure {
   #unneeditem .p-unneed_service .__container .__unneed_service-work .__work-cases .__case-item .__after::before {
     width: 109px;
     height: 43px;
+    top: 0;
   }
 }
 #unneeditem .p-collection {
@@ -7910,6 +7938,9 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem .p-collection .__container .__collection-ttl .__ttl-main span {
     font-size: 30px;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 5px;
   }
 }
 #unneeditem .p-collection .__container .__collection-items {
@@ -8000,7 +8031,6 @@ figure {
   font-weight: 900;
   font-family: "din";
   color: #ff811c;
-  font-family: "KozGoPr6NRegular";
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-collection .__container .__collection-items .__collection-item .__item-container .__item-ttl .__item-num {
@@ -8169,6 +8199,53 @@ figure {
     top: 34%;
   }
 }
+#unneeditem .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn {
+  margin-top: 150px;
+  padding: 19px 97px;
+  border-radius: 100px;
+  color: white;
+  background-color: #ff811c;
+  position: relative;
+  transition: all 0.3s;
+  font-size: 22px;
+  font-weight: 500;
+  box-shadow: 5px 5px 0 #949eb0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -moz-max-content;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 769px) {
+  #unneeditem .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn {
+    margin-top: 40px;
+    padding: 10px 97px;
+  }
+}
+#unneeditem .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn:hover {
+  transform: translateY(5px);
+  box-shadow: unset;
+}
+#unneeditem .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 20px;
+  background-image: url(../img/unneeditem/img-btn-after.png);
+  background-position: center;
+  background-size: 100% 100%;
+  right: 10px;
+  top: 38%;
+}
+@media screen and (max-width: 769px) {
+  #unneeditem .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__item-btn::after {
+    top: 34%;
+  }
+}
 #unneeditem .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__ctn-block {
   max-width: 560px;
   border: 3px solid #ff811c;
@@ -8196,6 +8273,8 @@ figure {
   gap: 20px;
   padding-top: 36px;
   padding-left: 30px;
+  padding-right: 16px;
+  padding-bottom: 16px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-optional_service .__container .__service-item .__optional_service-item__body .__service-item-main .__ctn-block .__block-ctn {
@@ -8415,7 +8494,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-size .__container .__size-body .__size-items .__size-item .__item-img {
-    max-width: 320px;
+    max-width: 210px;
     width: 80%;
   }
 }
@@ -8552,7 +8631,7 @@ figure {
 #unneeditem .p-good .__container .__good-product {
   margin-top: 100px;
   padding: 80px 40px;
-  background-color: #fef0e3;
+  background-color: #fcfbf2;
   border-radius: 67px;
 }
 @media screen and (max-width: 769px) {
@@ -8862,6 +8941,8 @@ figure {
   #unneeditem .p-good .__container .__good-product .__good-last .__good-btn {
     padding: 12px 62px;
     margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 #unneeditem .p-good .__container .__good-product .__good-last .__good-btn:hover {
@@ -8903,6 +8984,10 @@ figure {
   background-color: white;
   border-radius: 67px;
   position: relative;
+  background-image: url(../img/unneeditem/img-flow-bg.png);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-flow .__container {
@@ -8939,6 +9024,12 @@ figure {
     padding: 40px 16px;
   }
 }
+#unneeditem .p-flow .__container .__flow-main .__flow-step:first-child::after {
+  background-image: url(../img/cleanning/img-flow-item-after-pink.png);
+}
+#unneeditem .p-flow .__container .__flow-main .__flow-step:nth-child(2)::after {
+  background-image: url(../img/cleanning/img-flow-item-after-pink.png);
+}
 #unneeditem .p-flow .__container .__flow-main .__flow-step::after {
   content: "";
   position: absolute;
@@ -8952,7 +9043,8 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-flow .__container .__flow-main .__flow-step::after {
-    transform: translateX(26%);
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 #unneeditem .p-flow .__container .__flow-main .__flow-step:last-child::after {
@@ -8990,6 +9082,8 @@ figure {
   border-radius: 27px;
   text-align: center;
   bottom: -94px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-flow .__container .__flow-main .__flow-step.ps::before {
@@ -9089,12 +9183,12 @@ figure {
   justify-content: center;
   padding-right: 16px;
   padding-left: 16px;
-  background-color: #ff811c !important;
+  background-color: #ff811c;
   width: 100%;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-flow .__container .__flow-main .__flow-step .p-contact {
-    background-color: #ff811c !important;
+    background-color: #ff811c;
   }
 }
 #unneeditem .p-flow .__container .__flow-main .__flow-step .p-contact .container {
@@ -9176,12 +9270,12 @@ figure {
   position: absolute;
   content: "";
   width: 256px;
-  height: 211px;
+  height: 182px;
   background-image: url(../img/unneeditem/img-flow-contact-girl.png);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  top: -289%;
+  background-size: cover;
+  top: -251%;
   right: 3%;
 }
 @media screen and (max-width: 769px) {
@@ -9191,7 +9285,6 @@ figure {
     right: -30px;
     background-size: cover;
     background-position: top;
-    z-index: -1;
     top: -278px;
   }
 }
@@ -9334,6 +9427,8 @@ figure {
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-giveme {
@@ -9369,11 +9464,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-giveme .__container .__giveme-ttl {
-    font-size: 31px;
-    padding-left: 0;
-    font-weight: 900;
-    color: white;
-    line-height: 55px;
+    max-width: 93%;
+    margin-right: 0;
+    margin-left: auto;
   }
 }
 #unneeditem .p-giveme .__container .__giveme-ttl::after {
@@ -9422,9 +9515,9 @@ figure {
     position: absolute;
     width: 122px;
     z-index: 9;
-    top: 10%;
     left: 25px;
     z-index: -1;
+    top: 3%;
   }
 }
 #unneeditem .p-faq {
@@ -9677,7 +9770,10 @@ figure {
   padding-right: 16px;
   padding-left: 16px;
   background-color: #ff811c;
-  margin-top: -20px;
+  margin-top: 0;
+}
+#unneeditem .p-contact.pink {
+  background-color: #ff811c;
 }
 #unneeditem .p-contact .__container {
   padding-top: 52px;
@@ -9764,7 +9860,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 23%;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-contact .__container .__btn-g .line-contact::before {
@@ -9912,8 +10008,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-area .__container .__area-map .__map-ctn {
-    padding: 17px 17px 17px 65px;
-    font-size: 24px;
+    padding: 17px 17px 17px 82px;
+    font-size: 22px;
+    line-height: 30px;
   }
 }
 #unneeditem .p-area .__container .__area-map .__map-ctn::after {
@@ -11782,6 +11879,8 @@ figure {
   border-radius: 27px;
   text-align: center;
   bottom: -94px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-flow .__container .__flow-main .__flow-step.ps::before {
@@ -14901,6 +15000,8 @@ figure {
   border-radius: 27px;
   text-align: center;
   bottom: -94px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #sorting .p-flow .__container .__flow-main .__flow-step.ps::before {
@@ -14918,6 +15019,8 @@ figure {
 }
 #sorting .p-flow .__container .__flow-main .__flow-step.ps::after {
   bottom: -146px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #sorting .p-flow .__container .__flow-main .__flow-step .__step-ctn {
   max-width: 480px;

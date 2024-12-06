@@ -1962,6 +1962,8 @@
               border-radius: 27px;
               text-align: center;
               bottom: -94px;
+              left: 50%;
+              transform: translateX(-50%);
               @include media-sp {
                 font-size: 27px;
                 font-weight: 700;
@@ -1976,6 +1978,8 @@
             }
             &::after {
               bottom: -146px;
+              left: 50%;
+              transform: translateX(-50%);
             }
           }
           .__step-ctn {
