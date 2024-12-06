@@ -96,6 +96,18 @@
             @include media-sp {
               font-size: 30px;
             }
+
+            figure {
+              max-width: 59px;
+              position: absolute;
+              right: 10%;
+              top: -10%;
+              @include media-sp {
+                right: 16%;
+                top: 31%;
+                max-width: 31px;
+              }
+            }
             &::after {
               content: "";
               position: absolute;
@@ -132,7 +144,7 @@
               font-weight: 700;
               color: #ff811c;
               @include media-sp {
-                font-size: 20px;
+                font-size: 5.6vw;
               }
             }
             .__body-main {
@@ -156,10 +168,10 @@
                 top: -110%;
                 right: -25%;
                 @include media-sp {
-                  width: 97px;
-                  height: 134px;
+                  width: 22vw;
+                  height: 28vw;
                   right: 0%;
-                  top: -152px;
+                  top: -35vw;
                 }
               }
             }
@@ -400,8 +412,8 @@
         padding-right: 16px;
         @include media-sp {
           padding-top: 190px;
-          background-size: 147% 52%;
-          background-position: 50% 29%;
+          background-size: 137% 77%;
+          background-position: 50% 39%;
         }
 
         .__main-ttl {
@@ -416,6 +428,13 @@
           text-align: center;
 
           position: relative;
+
+          figure {
+            max-width: 613px;
+            @include media-sp {
+              max-width: 250px;
+            }
+          }
 
           @include media-sp {
             text-shadow: 2px 3px 0 #ff811c;
@@ -478,8 +497,7 @@
           max-width: 910px;
           margin: -40px auto auto auto;
           @include media-sp {
-            margin: -28px auto auto auto;
-            transform: translateY(44px);
+            margin: -10px auto auto auto;
           }
         }
       }
@@ -567,12 +585,13 @@
             background-repeat: no-repeat;
             background-size: 100% 100%;
             top: -366%;
-            right: 3%;
+            right: 16%;
+
             @include media-sp {
               width: 166px;
               height: 178px;
               top: -540%;
-              right: 0;
+              right: 3%;
             }
           }
           img {
@@ -615,7 +634,7 @@
         background-image: url(../img/member/bg-area-ttl.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100% 100%;
+        background-size: cover;
         padding-left: 78px;
         padding-top: 169px;
         position: relative;
@@ -636,7 +655,8 @@
           background-repeat: no-repeat;
           background-size: 100% 100%;
           bottom: -15%;
-          left: 22%;
+          left: 50%;
+          transform: translateX(-50%);
           @include media-sp {
             width: 195px;
             height: 40px;
@@ -646,6 +666,8 @@
           font-size: 28px;
           color: #ff811c;
           font-weight: 700;
+          position: relative;
+
           @include media-sp {
             font-size: 30px;
             text-align: center;
@@ -692,10 +714,12 @@
           background-size: 100% 100%;
           padding: 45px 43px 45px 140px;
           position: relative;
+
           @include media-sp {
             padding: 17px 17px 17px 65px;
             font-size: 24px;
             line-height: 40px;
+            max-width: 327px;
           }
           &::after {
             content: "";

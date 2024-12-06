@@ -3278,7 +3278,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -3302,7 +3302,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #member .p-area .__container .__area-head::after {
@@ -3372,6 +3373,7 @@ figure {
     padding: 17px 17px 17px 65px;
     font-size: 24px;
     line-height: 40px;
+    max-width: 327px;
   }
 }
 #member .p-area .__container .__area-map .__map-ctn::after {
@@ -3870,7 +3872,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -3894,7 +3896,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #choose_company .p-area .__container .__area-head::after {
@@ -3964,6 +3967,7 @@ figure {
     padding: 17px 17px 17px 65px;
     font-size: 24px;
     line-height: 40px;
+    max-width: 327px;
   }
 }
 #choose_company .p-area .__container .__area-map .__map-ctn::after {
@@ -4744,7 +4748,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -4768,7 +4772,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #company .p-area .__container .__area-head::after {
@@ -4838,6 +4843,7 @@ figure {
     padding: 17px 17px 17px 65px;
     font-size: 24px;
     line-height: 40px;
+    max-width: 327px;
   }
 }
 #company .p-area .__container .__area-map .__map-ctn::after {
@@ -5501,7 +5507,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -5525,7 +5531,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #faq .p-area .__container .__area-head::after {
@@ -5595,6 +5602,7 @@ figure {
     padding: 17px 17px 17px 65px;
     font-size: 24px;
     line-height: 40px;
+    max-width: 327px;
   }
 }
 #faq .p-area .__container .__area-map .__map-ctn::after {
@@ -6415,6 +6423,19 @@ figure {
     font-size: 30px;
   }
 }
+#unneeditem_where .p-concept .__concept-head .container .__container .__head-ttl figure {
+  max-width: 59px;
+  position: absolute;
+  right: 10%;
+  top: -10%;
+}
+@media screen and (max-width: 769px) {
+  #unneeditem_where .p-concept .__concept-head .container .__container .__head-ttl figure {
+    right: 16%;
+    top: 31%;
+    max-width: 31px;
+  }
+}
 #unneeditem_where .p-concept .__concept-head .container .__container .__head-ttl::after {
   content: "";
   position: absolute;
@@ -6459,7 +6480,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-concept .__concept-head .container .__container .__head-body .__body-ttl {
-    font-size: 20px;
+    font-size: 5.6vw;
   }
 }
 #unneeditem_where .p-concept .__concept-head .container .__container .__head-body .__body-main {
@@ -6488,10 +6509,10 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-concept .__concept-head .container .__container .__head-body .__body-main::after {
-    width: 97px;
-    height: 134px;
+    width: 22vw;
+    height: 28vw;
     right: 0%;
-    top: -152px;
+    top: -35vw;
   }
 }
 #unneeditem_where .p-concept .__concept-body {
@@ -6751,8 +6772,8 @@ figure {
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-buy .__buy-body .__body-main {
     padding-top: 190px;
-    background-size: 147% 52%;
-    background-position: 50% 29%;
+    background-size: 137% 77%;
+    background-position: 50% 39%;
   }
 }
 #unneeditem_where .p-buy .__buy-body .__body-main .__main-ttl {
@@ -6762,6 +6783,14 @@ figure {
   text-shadow: 10px 10px 0 #ff811c;
   text-align: center;
   position: relative;
+}
+#unneeditem_where .p-buy .__buy-body .__body-main .__main-ttl figure {
+  max-width: 613px;
+}
+@media screen and (max-width: 769px) {
+  #unneeditem_where .p-buy .__buy-body .__body-main .__main-ttl figure {
+    max-width: 250px;
+  }
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-buy .__buy-body .__body-main .__main-ttl {
@@ -6832,8 +6861,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-buy .__buy-body .__body-main figure {
-    margin: -28px auto auto auto;
-    transform: translateY(44px);
+    margin: -10px auto auto auto;
   }
 }
 #unneeditem_where .p-contact {
@@ -6927,14 +6955,14 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 16%;
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-contact .__container .__btn-g .line-contact::before {
     width: 166px;
     height: 178px;
     top: -540%;
-    right: 0;
+    right: 3%;
   }
 }
 #unneeditem_where .p-contact .__container .__btn-g .line-contact img {
@@ -6978,7 +7006,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -7002,7 +7030,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-area .__container .__area-head::after {
@@ -7014,6 +7043,7 @@ figure {
   font-size: 28px;
   color: #ff811c;
   font-weight: 700;
+  position: relative;
 }
 @media screen and (max-width: 769px) {
   #unneeditem_where .p-area .__container .__area-head .__head-ttl {
@@ -7072,6 +7102,7 @@ figure {
     padding: 17px 17px 17px 65px;
     font-size: 24px;
     line-height: 40px;
+    max-width: 327px;
   }
 }
 #unneeditem_where .p-area .__container .__area-map .__map-ctn::after {
@@ -9917,7 +9948,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -9941,7 +9972,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-area .__container .__area-head::after {
@@ -12691,7 +12723,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -15823,7 +15855,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -16495,7 +16527,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -16519,7 +16551,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #work .p-area .__container .__area-head::after {
@@ -16589,6 +16622,7 @@ figure {
     padding: 17px 17px 17px 65px;
     font-size: 24px;
     line-height: 40px;
+    max-width: 327px;
   }
 }
 #work .p-area .__container .__area-map .__map-ctn::after {
@@ -17992,7 +18026,7 @@ figure {
   background-image: url(../img/member/bg-area-ttl.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-left: 78px;
   padding-top: 169px;
   position: relative;
@@ -18016,7 +18050,8 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   bottom: -15%;
-  left: 22%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 769px) {
   #plan .p-area .__container .__area-head::after {
@@ -18086,6 +18121,7 @@ figure {
     padding: 17px 17px 17px 65px;
     font-size: 24px;
     line-height: 40px;
+    max-width: 327px;
   }
 }
 #plan .p-area .__container .__area-map .__map-ctn::after {
