@@ -16782,8 +16782,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #plan .p-link-wrap .container {
-    flex-direction: column;
-    gap: 24px;
+    gap: 15px;
   }
 }
 #plan .p-link-wrap .container .link-wrap-item {
@@ -16806,7 +16805,7 @@ figure {
   #plan .p-link-wrap .container .link-wrap-item {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 300px;
+    width: 100px;
     font-size: 17px;
     border-radius: 15px;
     border: 1px solid #ff811c;
@@ -16844,7 +16843,7 @@ figure {
 #plan .p-plan .container .__plan-ttl .mark {
   font-size: 104px;
   font-weight: 900;
-  color: #ffc99d;
+  color: #ffe3ce;
   position: relative;
 }
 #plan .p-plan .container .__plan-ttl .mark::after {
@@ -17049,6 +17048,7 @@ figure {
   padding-top: 49px;
   padding-bottom: 49px;
   border: 0.5px solid #ff811c;
+  font-family: "KozGoPr6NRegular";
 }
 @media screen and (max-width: 769px) {
   #plan .p-plan .container .__plan-ttl .table .table-item h5 {
@@ -17107,6 +17107,7 @@ figure {
   font-size: 40px;
   font-weight: 700;
   color: #ea8a02;
+  text-align: center;
 }
 @media screen and (max-width: 769px) {
   #plan .p-each .container .__each-ttl {
@@ -17122,7 +17123,8 @@ figure {
 @media screen and (max-width: 769px) {
   #plan .p-each .container .__each-link-wrap {
     padding-top: 48px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
   }
 }
 #plan .p-each .container .__each-link-wrap .link-item {
@@ -17147,7 +17149,8 @@ figure {
   #plan .p-each .container .__each-link-wrap .link-item {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 15px;
+    gap: 5px;
   }
 }
 #plan .p-each .container .__each-link-wrap .link-item figure {
@@ -17155,6 +17158,11 @@ figure {
   height: 70px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+@media screen and (max-width: 769px) {
+  #plan .p-each .container .__each-link-wrap .link-item figure {
+    max-width: 35px;
+  }
 }
 #plan .p-each .container .__each-link-wrap .link-item figure img {
   width: 100%;
@@ -17205,6 +17213,11 @@ figure {
   background-size: 100% 100%;
   top: -70%;
 }
+@media screen and (max-width: 769px) {
+  #plan .p-each .container .__each-lists .__each-list:nth-child(4) .__each-list-info .__info-ctn .list-btn::before {
+    top: -50px;
+  }
+}
 #plan .p-each .container .__each-lists .__each-list:nth-child(5) .__each-list-info .__info-ctn .info-ttl::before {
   background-image: url(../img/plan/img-each-item-ttl-before_5.png);
 }
@@ -17224,6 +17237,11 @@ figure {
   background-position: center;
   background-size: 100% 100%;
   top: -70%;
+}
+@media screen and (max-width: 769px) {
+  #plan .p-each .container .__each-lists .__each-list:nth-child(5) .__each-list-info .__info-ctn .list-btn::before {
+    top: -50px;
+  }
 }
 #plan .p-each .container .__each-lists .__each-list:nth-child(6) .__each-list-info .__info-ctn .info-ttl::before {
   background-image: url(../img/plan/img-each-item-ttl-before_6.png);
@@ -17301,7 +17319,7 @@ figure {
   padding-bottom: 33px;
   border-radius: 50px;
   background-color: #fff0e4;
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   font-weight: 700;
   color: #0a0a0a;
@@ -17397,6 +17415,11 @@ figure {
 #plan .p-each .container .__each-lists .__each-list .__each-list-info .info-img {
   max-width: 512px;
 }
+@media screen and (max-width: 769px) {
+  #plan .p-each .container .__each-lists .__each-list .__each-list-info .info-img {
+    margin-top: 40px;
+  }
+}
 #plan .p-each .container .__each-lists .__each-list .__each-list-table {
   width: 100%;
   border-radius: 5px;
@@ -17430,7 +17453,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #plan .p-each .container .__each-lists .__each-list .__each-list-table .table-item p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 #plan .p-each .container .__each-lists .__each-list .table-desc {
@@ -17552,6 +17575,9 @@ figure {
 #plan .p-case .container .__case-main .__case-item .cats .cat.blue {
   background-color: #ae4df2;
 }
+#plan .p-case .container .__case-main .__case-item .cats .cat._blue {
+  background-color: #1f66db;
+}
 #plan .p-case .container .__case-main .__case-item .cats .cat.pink {
   background-color: #ff811c;
 }
@@ -17589,7 +17615,8 @@ figure {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  top: -40px;
+  top: 0px;
+  transform: translateY(-50%);
 }
 @media screen and (max-width: 769px) {
   #plan .p-case .container .__case-main .__case-item .item-imgs figure.is-before::before {

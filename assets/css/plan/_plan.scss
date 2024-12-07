@@ -51,8 +51,7 @@
       gap: 45px;
       flex-wrap: wrap;
       @include media-sp {
-        flex-direction: column;
-        gap: 24px;
+        gap: 15px;
       }
 
       .link-wrap-item {
@@ -73,7 +72,7 @@
         @include media-sp {
           padding-top: 20px;
           padding-bottom: 20px;
-          width: 300px;
+          width: 100px;
           font-size: 17px;
           border-radius: 15px;
           border: 1px solid #ff811c;
@@ -111,7 +110,7 @@
         .mark {
           font-size: 104px;
           font-weight: 900;
-          color: #ffc99d;
+          color: #ffe3ce;
           position: relative;
           &::after {
             content: "料金表";
@@ -286,6 +285,7 @@
               padding-top: 49px;
               padding-bottom: 49px;
               border: 0.5px solid #ff811c;
+              font-family: $font-ko;
 
               @include media-sp {
                 font-size: 13px;
@@ -343,6 +343,7 @@
         font-size: 40px;
         font-weight: 700;
         color: #ea8a02;
+        text-align: center;
         @include media-sp {
           font-size: 28px;
         }
@@ -354,7 +355,9 @@
         gap: 20px;
         @include media-sp {
           padding-top: 48px;
-          grid-template-columns: 1fr;
+          grid-template-columns: 1fr 1fr;
+
+          gap: 5px;
         }
         .link-item {
           display: flex;
@@ -375,13 +378,19 @@
           @include media-sp {
             padding-top: 10px;
             padding-bottom: 10px;
-            font-size: 18px;
+            font-size: 15px;
+
+            gap: 5px;
           }
           text-decoration: none;
           figure {
             max-width: 90px;
             height: 70px;
             object-fit: contain;
+            @include media-sp {
+              max-width: 35px;
+            }
+
             img {
               width: 100%;
             }
@@ -457,6 +466,9 @@
                     background-position: center;
                     background-size: 100% 100%;
                     top: -70%;
+                    @include media-sp {
+                      top: -50px;
+                    }
                   }
                 }
               }
@@ -485,6 +497,9 @@
                     background-position: center;
                     background-size: 100% 100%;
                     top: -70%;
+                    @include media-sp {
+                      top: -50px;
+                    }
                   }
                 }
               }
@@ -574,7 +589,7 @@
                 padding-bottom: 33px;
                 border-radius: 50px;
                 background-color: #fff0e4;
-                font-size: 25px;
+                font-size: 22px;
                 text-align: center;
                 font-weight: 700;
                 color: #0a0a0a;
@@ -660,6 +675,9 @@
             }
             .info-img {
               max-width: 512px;
+              @include media-sp {
+                margin-top: 40px;
+              }
             }
           }
 
@@ -692,7 +710,7 @@
                 color: #0a0a0a;
                 border: 0.5px solid #ea8a02;
                 @include media-sp {
-                  font-size: 16px;
+                  font-size: 14px;
                 }
               }
             }
@@ -802,6 +820,9 @@
               &.blue {
                 background-color: #ae4df2;
               }
+              &._blue {
+                background-color: #1f66db;
+              }
               &.pink {
                 background-color: #ff811c;
               }
@@ -838,7 +859,8 @@
                 text-align: center;
                 padding-top: 20px;
                 padding-bottom: 20px;
-                top: -40px;
+                top: 0px;
+                transform: translateY(-50%);
                 @include media-sp {
                   font-size: 16px;
                   padding-top: 10px;
