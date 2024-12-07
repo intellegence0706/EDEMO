@@ -2511,6 +2511,7 @@ figure {
   color: #0183cf;
   font-weight: 700;
   font-size: 34px;
+  padding-bottom: 8px;
 }
 @media screen and (max-width: 769px) {
   #top .p-faq .__container .__faq-lists .__faq-item .__faq-q .__q-mark {
@@ -2564,6 +2565,7 @@ figure {
   background-color: #0183cf;
   font-weight: 700;
   font-size: 34px;
+  padding-bottom: 5px;
 }
 @media screen and (max-width: 769px) {
   #top .p-faq .__container .__faq-lists .__faq-item .__faq-a .__a-mark {
