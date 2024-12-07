@@ -3025,7 +3025,7 @@ figure {
   align-items: center;
   justify-content: flex-start;
   gap: 35px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 10px;
   border-bottom: #ff811c 2px dashed;
 }
@@ -3056,9 +3056,9 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 36px;
+  margin-top: 16px;
   font-weight: 700;
-  margin-bottom: 36px;
+  margin-bottom: 26px;
 }
 #member .p-intro .__container .__intro-members {
   padding-top: 70px;
