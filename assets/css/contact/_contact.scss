@@ -21,9 +21,9 @@
 
     h2 {
       color: white;
-      font-size: 65px;
+      font-size: 5vw;
       font-weight: 900;
-      padding-left: 214px;
+      padding-left: 11vw;
       padding-top: 208px;
       @include media-sp {
         font-size: 26px;
@@ -53,20 +53,29 @@
     padding-left: 16px;
     .__container {
       max-width: 1040px;
-      padding-left: 16px;
       padding-top: 90px;
       padding-bottom: 70px;
       @include media-sp {
         padding-top: 50px;
         padding-bottom: 40px;
       }
+      figure {
+        padding-right: 40px;
+        padding-left: 40px;
+        @include media-sp {
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
       h3 {
         font-size: 36px;
         font-weight: 900;
         color: #ff811c;
         text-align: center;
+        padding-top: 40px;
         @include media-sp {
           font-size: 28px;
+          padding-top: 30px;
         }
       }
       p {
