@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
 @font-face {
   font-family: "KozGoPr6NRegular";
   src: url(../fonts/KozGoPr6NRegular.woff);
@@ -3227,7 +3228,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #member .p-contact .__container .__btn-g .line-contact::before {
@@ -3821,7 +3822,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #choose_company .p-contact .__container .__btn-g .line-contact::before {
@@ -4068,8 +4069,6 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 16px;
-  padding-left: 16px;
   background-image: url(../img/company/bg-ceo.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -4077,23 +4076,32 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #company .p-intro-ceos {
-    background-size: cover;
+    background-size: 163%;
+    background-repeat: no-repeat;
+    background-position: top left;
   }
 }
 #company .p-intro-ceos .__container {
   padding-top: 135px;
   padding-bottom: 250px;
   position: relative;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 @media screen and (max-width: 769px) {
   #company .p-intro-ceos .__container {
+    background-image: url(../img/company/bg-ceo.png);
     padding-top: 80px;
     padding-bottom: 150px;
+    background-size: 240%;
   }
 }
 #company .p-intro-ceos .__container::after {
   width: 100%;
-  border-bottom: 3px dashed #ff811c;
+  border-bottom: 7px dotted #ff811c;
   position: absolute;
   content: "";
   bottom: 100px;
@@ -4114,17 +4122,18 @@ figure {
 #company .p-intro-ceos .__container .__ceos-ttl::after, #company .p-intro-ceos .__container .__ceos-ttl::before {
   position: absolute;
   content: "";
-  width: 40%;
-  height: 5px;
+  width: 37%;
+  height: 7px;
   background-image: url(../img/company/img-ceos-before.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   top: 12%;
 }
 @media screen and (max-width: 769px) {
   #company .p-intro-ceos .__container .__ceos-ttl::after, #company .p-intro-ceos .__container .__ceos-ttl::before {
     width: 29%;
+    background-size: 280%;
   }
 }
 #company .p-intro-ceos .__container .__ceos-ttl::after {
@@ -4163,6 +4172,7 @@ figure {
 @media screen and (max-width: 769px) {
   #company .p-intro-ceos .__container .__ceos .__ceo .__ceo-msg .__msg-ttl {
     padding-top: 40px;
+    text-align: center;
   }
 }
 #company .p-intro-ceos .__container .__ceos .__ceo .__ceo-msg .__msg-ctn {
@@ -4197,7 +4207,7 @@ figure {
   justify-content: center;
   padding-right: 16px;
   padding-left: 16px;
-  padding-top: 104px;
+  padding-top: 184px;
   padding-bottom: 104px;
   background-image: url(../img/company/bg-vision.jpg);
   background-position: center;
@@ -4206,9 +4216,8 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #company .p-vision {
-    padding-top: 90px;
+    padding-top: 104px;
     padding-bottom: 40px;
-    margin-top: -30px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -4231,15 +4240,14 @@ figure {
   background-position: center;
   background-size: 100% 100%;
   left: 22%;
-  top: -7%;
   z-index: 21;
+  transform: translateY(-50%);
 }
 @media screen and (max-width: 769px) {
   #company .p-vision .__container::before {
     width: 90%;
     height: 100px;
     left: 7%;
-    top: -2%;
   }
 }
 #company .p-vision .__container .__vision-head {
@@ -4264,6 +4272,7 @@ figure {
   #company .p-vision .__container .__vision-head::after {
     width: 100%;
     height: 320px;
+    top: 180px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -4274,12 +4283,17 @@ figure {
 #company .p-vision .__container .__vision-head .__head-ttl {
   font-size: 24px;
   font-weight: normal;
-  font-family: "KozGoPr6NRegular";
+  font-family: "Zen Kurenaido", sans-serif;
   padding-bottom: 68px;
 }
 @media screen and (max-width: 769px) {
   #company .p-vision .__container .__vision-head .__head-ttl {
-    padding-bottom: 36px;
+    margin-top: -295px;
+    width: -moz-max-content;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 416px;
   }
 }
 #company .p-vision .__container .__vision-head .__head-ctn {
@@ -4361,7 +4375,9 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #company .p-licenses {
-    padding: 40px 16px 40px 16px;
+    padding: 90px 16px 40px 16px;
+    background-repeat: repeat;
+    background-size: 434%;
   }
 }
 #company .p-licenses .__container .__licenses-ttl {
@@ -4370,27 +4386,49 @@ figure {
   font-weight: 700;
   position: relative;
   text-align: center;
+  position: relative;
+}
+@media screen and (max-width: 769px) {
+  #company .p-licenses .__container .__licenses-ttl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  #company .p-licenses .__container .__licenses-ttl figure {
+    max-width: 100px;
+  }
 }
 #company .p-licenses .__container .__licenses-ttl::after {
   content: "";
   position: absolute;
   width: 23%;
-  border-bottom: 3px dashed #ff811c;
+  border-bottom: 5px dotted #ff811c;
   top: 50%;
   right: 0;
+}
+@media screen and (max-width: 769px) {
+  #company .p-licenses .__container .__licenses-ttl::after {
+    width: 9%;
+  }
 }
 #company .p-licenses .__container .__licenses-ttl::before {
   content: "";
   position: absolute;
   width: 23%;
-  border-bottom: 3px dashed #ff811c;
+  border-bottom: 5px dotted #ff811c;
   top: 50%;
   left: 0;
+}
+@media screen and (max-width: 769px) {
+  #company .p-licenses .__container .__licenses-ttl::before {
+    width: 9%;
+  }
 }
 #company .p-licenses .__container .__licenses-main {
   padding-top: 75px;
   padding-bottom: 75px;
-  border-bottom: 3px dashed #ff811c;
+  border-bottom: 5px dotted #ff811c;
 }
 @media screen and (max-width: 769px) {
   #company .p-licenses .__container .__licenses-main {
@@ -4488,7 +4526,7 @@ figure {
 @media screen and (max-width: 769px) {
   #company .p-company .__container .p-company-main {
     margin-top: 60px;
-    box-shadow: 0px 0px 15px rgba(1, 131, 207, 0.5019607843);
+    box-shadow: 0px 0px 15px rgba(235, 159, 41, 0.5);
   }
 }
 #company .p-company .__container .p-company-main .__company-list {
@@ -4500,6 +4538,8 @@ figure {
   #company .p-company .__container .p-company-main .__company-list {
     align-items: center;
     flex-direction: column;
+    -webkit-text-emphasis: none;
+            text-emphasis: none;
   }
 }
 #company .p-company .__container .p-company-main .__company-list:last-child .__company-ttl {
@@ -4543,7 +4583,7 @@ figure {
 @media screen and (max-width: 769px) {
   #company .p-company .__container .p-company-main .__company-list .__company-ttl {
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -4577,6 +4617,7 @@ figure {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
   }
 }
 #company .p-company .__container .p-company-main .__company-list .__company-ctn::after {
@@ -4697,9 +4738,18 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
+  right: 21%;
 }
 @media screen and (max-width: 769px) {
+  #company .p-contact .__container .__btn-g .line-contact::before {
+    width: 33vw;
+    height: 30vw;
+    top: -75vw;
+    right: 5vw;
+  }
+}
+@media screen and (max-width: 426px) {
   #company .p-contact .__container .__btn-g .line-contact::before {
     width: 166px;
     height: 178px;
@@ -5456,7 +5506,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #faq .p-contact .__container .__btn-g .line-contact::before {
@@ -7351,7 +7401,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-contact-1 .__container .__btn-g .line-contact::before {
@@ -13086,7 +13136,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #sorting .p-contact-1 .__container .__btn-g .line-contact::before {
@@ -15798,7 +15848,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #sorting .p-contact .__container .__btn-g .line-contact::before {
@@ -16476,7 +16526,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #work .p-contact .__container .__btn-g .line-contact::before {
@@ -17975,7 +18025,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: -366%;
-  right: 3%;
+  right: 20%;
 }
 @media screen and (max-width: 769px) {
   #plan .p-contact .__container .__btn-g .line-contact::before {

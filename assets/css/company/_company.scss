@@ -44,26 +44,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 16px;
-    padding-left: 16px;
+
     background-image: url(../img/company/bg-ceo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     @include media-sp {
-      background-size: cover;
+      background-size: 163%;
+      background-repeat: no-repeat;
+      background-position: top left;
     }
     .__container {
       padding-top: 135px;
       padding-bottom: 250px;
       position: relative;
+      padding-right: 16px;
+      padding-left: 16px;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: 100%;
       @include media-sp {
+        background-image: url(../img/company/bg-ceo.png);
+
         padding-top: 80px;
         padding-bottom: 150px;
+        background-size: 240%;
       }
       &::after {
         width: 100%;
-        border-bottom: 3px dashed #ff811c;
+        border-bottom: 7px dotted #ff811c;
         position: absolute;
         content: "";
         bottom: 100px;
@@ -82,15 +91,16 @@
         &::before {
           position: absolute;
           content: "";
-          width: 40%;
-          height: 5px;
+          width: 37%;
+          height: 7px;
           background-image: url(../img/company/img-ceos-before.png);
-          background-repeat: no-repeat;
+          background-repeat: repeat;
           background-position: center;
-          background-size: cover;
+          background-size: 100%;
           top: 12%;
           @include media-sp {
             width: 29%;
+            background-size: 280%;
           }
         }
         &::after {
@@ -137,6 +147,7 @@
               font-size: 24px;
               @include media-sp {
                 padding-top: 40px;
+                text-align: center;
               }
             }
             .__msg-ctn {
@@ -178,16 +189,15 @@
     justify-content: center;
     padding-right: 16px;
     padding-left: 16px;
-    padding-top: 104px;
+    padding-top: 184px;
     padding-bottom: 104px;
     background-image: url(../img/company/bg-vision.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     @include media-sp {
-      padding-top: 90px;
+      padding-top: 104px;
       padding-bottom: 40px;
-      margin-top: -30px;
     }
     @include media-sp {
       background-size: cover;
@@ -206,13 +216,12 @@
         background-position: center;
         background-size: 100% 100%;
         left: 22%;
-        top: -7%;
         z-index: 21;
+        transform: translateY(-50%);
         @include media-sp {
           width: 90%;
           height: 100px;
           left: 7%;
-          top: -2%;
         }
       }
       .__vision-head {
@@ -235,6 +244,7 @@
           @include media-sp {
             width: 100%;
             height: 320px;
+            top: 180px;
           }
         }
         @include media-sp {
@@ -243,10 +253,14 @@
         .__head-ttl {
           font-size: 24px;
           font-weight: normal;
-          font-family: $font-ko;
+          font-family: "Zen Kurenaido", sans-serif;
           padding-bottom: 68px;
           @include media-sp {
-            padding-bottom: 36px;
+            margin-top: -295px;
+            width: max-content;
+            margin-right: auto;
+            margin-left: auto;
+            padding-bottom: 416px;
           }
         }
         .__head-ctn {
@@ -328,7 +342,9 @@
     background-position: center;
     background-size: 100% 100%;
     @include media-sp {
-      padding: 40px 16px 40px 16px;
+      padding: 90px 16px 40px 16px;
+      background-repeat: repeat;
+      background-size: 434%;
     }
     .__container {
       .__licenses-ttl {
@@ -337,27 +353,43 @@
         font-weight: 700;
         position: relative;
         text-align: center;
+        position: relative;
+        @include media-sp {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 30px;
+          figure {
+            max-width: 100px;
+          }
+        }
         &::after {
           content: "";
           position: absolute;
           width: 23%;
-          border-bottom: 3px dashed #ff811c;
+          border-bottom: 5px dotted #ff811c;
           top: 50%;
           right: 0;
+          @include media-sp {
+            width: 9%;
+          }
         }
         &::before {
           content: "";
           position: absolute;
           width: 23%;
-          border-bottom: 3px dashed #ff811c;
+          border-bottom: 5px dotted #ff811c;
           top: 50%;
           left: 0;
+          @include media-sp {
+            width: 9%;
+          }
         }
       }
       .__licenses-main {
         padding-top: 75px;
         padding-bottom: 75px;
-        border-bottom: 3px dashed #ff811c;
+        border-bottom: 5px dotted #ff811c;
         @include media-sp {
           padding-top: 40px;
           padding-bottom: 36px;
@@ -442,7 +474,7 @@
         box-shadow: 10px 10px 2px #ff811c80;
         @include media-sp {
           margin-top: 60px;
-          box-shadow: 0px 0px 15px #0183cf80;
+          box-shadow: 0px 0px 15px rgb(235 159 41 / 50%);
         }
         .__company-list {
           display: flex;
@@ -451,6 +483,7 @@
           @include media-sp {
             align-items: center;
             flex-direction: column;
+            text-emphasis: none;
           }
           &:last-child {
             .__company-ttl {
@@ -492,7 +525,7 @@
             position: relative;
             @include media-sp {
               width: 100%;
-              text-align: left;
+              text-align: center;
               padding-left: 15px;
               padding-top: 15px;
               padding-bottom: 15px;
@@ -522,6 +555,7 @@
               width: 100%;
               padding-top: 15px;
               padding-bottom: 15px;
+              text-align: center;
             }
             &::after {
               content: "";
@@ -635,8 +669,15 @@
             background-repeat: no-repeat;
             background-size: 100% 100%;
             top: -366%;
-            right: 3%;
+            right: 20%;
+            right: 21%;
             @include media-sp {
+              width: 33vw;
+              height: 30vw;
+              top: -75vw;
+              right: 5vw;
+            }
+            @include responsive(426px) {
               width: 166px;
               height: 178px;
               top: -540%;
