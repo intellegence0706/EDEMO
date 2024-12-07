@@ -22,7 +22,7 @@
       padding-left: 94px;
       padding-top: 238px;
       @include media-sp {
-        font-size: 24px;
+        font-size: 18px;
         padding-left: 16px;
         padding-top: 80px;
       }
@@ -35,8 +35,9 @@
       @include media-sp {
         font-size: 18px;
         margin-left: 16px;
-        margin-top: 27px;
-        max-width: 190px;
+
+        margin-top: 42px;
+        max-width: 161px;
       }
     }
   }
