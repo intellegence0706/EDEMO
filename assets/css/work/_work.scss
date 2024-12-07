@@ -50,6 +50,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    @include media-sp {
+      background-repeat: repeat;
+      background-position: center;
+      background-size: 310%;
+    }
     .__container {
       padding-top: 100px;
       padding-bottom: 100px;
@@ -153,12 +158,18 @@
               padding-left: 16px;
               @include media-sp {
                 font-size: 16px;
+                max-width: 143px;
+                min-width: unset;
+                border-radius: 10px;
               }
               &.blue {
                 background-color: #ae4df2;
               }
               &.blue_1 {
                 background-color: #ae4df2;
+              }
+              &.blue-1 {
+                background-color: #1f66db;
               }
               &.pink {
                 background-color: #ff811c;
@@ -170,7 +181,7 @@
                 background-color: #f44d92;
               }
               &.green {
-                background-color: #f44d92;
+                background-color: #14ae5c;
               }
             }
           }
@@ -183,9 +194,8 @@
             padding-bottom: 70px;
             border-bottom: 3px dashed #ff811c;
             @include media-sp {
-              flex-direction: column;
               gap: 20px;
-              padding-top: 50px;
+              padding-top: 10px;
               padding-bottom: 36px;
             }
 
@@ -206,6 +216,20 @@
                 padding-top: 20px;
                 padding-bottom: 20px;
                 top: -40px;
+                @include media-sp {
+                  content: "Before";
+                  position: absolute;
+                  width: 100px;
+                  border-radius: 10px;
+                  font-size: 17px;
+                  font-weight: 700;
+                  color: white;
+                  background-color: #555555;
+                  text-align: center;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  top: -20px;
+                }
               }
               &.is-before::after {
                 content: "";
@@ -218,7 +242,13 @@
                 background-size: contain;
                 right: -89px;
                 @include media-sp {
-                  display: none;
+                  width: 16px;
+                  height: 66px;
+                  background-image: url(../img/work/img-voice-case-after.png);
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  right: -19px;
                 }
               }
               &.is-after::before {
@@ -234,22 +264,32 @@
                 padding-top: 20px;
                 padding-bottom: 20px;
                 top: -40px;
+                @include media-sp {
+                  width: 100px;
+                  border-radius: 10px;
+                  font-size: 17px;
+                  font-weight: 700;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  top: -20px;
+                }
               }
             }
           }
           .__item-info {
             padding-top: 45px;
             padding-bottom: 45px;
+            column-gap: 80px;
             @include media-sp {
               padding-top: 36px;
               padding-bottom: 36px;
-              gap: 20px;
+              row-gap: 20px;
             }
             display: flex;
             align-items: center;
             justify-content: flex-start;
             flex-wrap: wrap;
-            gap: 40px;
+            row-gap: 20px;
             border-bottom: 3px dashed #ff811c;
             .__info-list {
               display: flex;

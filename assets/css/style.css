@@ -16113,6 +16113,13 @@ figure {
   background-position: center;
   background-size: cover;
 }
+@media screen and (max-width: 769px) {
+  #work .p-voice {
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 310%;
+  }
+}
 #work .p-voice .__container {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -16237,6 +16244,9 @@ figure {
 @media screen and (max-width: 769px) {
   #work .p-voice .__container .__voice-main .__voice-item .__item-cat .cat-list {
     font-size: 16px;
+    max-width: 143px;
+    min-width: unset;
+    border-radius: 10px;
   }
 }
 #work .p-voice .__container .__voice-main .__voice-item .__item-cat .cat-list.blue {
@@ -16244,6 +16254,9 @@ figure {
 }
 #work .p-voice .__container .__voice-main .__voice-item .__item-cat .cat-list.blue_1 {
   background-color: #ae4df2;
+}
+#work .p-voice .__container .__voice-main .__voice-item .__item-cat .cat-list.blue-1 {
+  background-color: #1f66db;
 }
 #work .p-voice .__container .__voice-main .__voice-item .__item-cat .cat-list.pink {
   background-color: #ff811c;
@@ -16255,7 +16268,7 @@ figure {
   background-color: #f44d92;
 }
 #work .p-voice .__container .__voice-main .__voice-item .__item-cat .cat-list.green {
-  background-color: #f44d92;
+  background-color: #14ae5c;
 }
 #work .p-voice .__container .__voice-main .__voice-item .__item-case {
   padding-top: 100px;
@@ -16267,9 +16280,8 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #work .p-voice .__container .__voice-main .__voice-item .__item-case {
-    flex-direction: column;
     gap: 20px;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 36px;
   }
 }
@@ -16292,6 +16304,22 @@ figure {
   padding-bottom: 20px;
   top: -40px;
 }
+@media screen and (max-width: 769px) {
+  #work .p-voice .__container .__voice-main .__voice-item .__item-case .case-list.is-before::before {
+    content: "Before";
+    position: absolute;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: #555555;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: -20px;
+  }
+}
 #work .p-voice .__container .__voice-main .__voice-item .__item-case .case-list.is-before::after {
   content: "";
   position: absolute;
@@ -16305,7 +16333,13 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #work .p-voice .__container .__voice-main .__voice-item .__item-case .case-list.is-before::after {
-    display: none;
+    width: 16px;
+    height: 66px;
+    background-image: url(../img/work/img-voice-case-after.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    right: -19px;
   }
 }
 #work .p-voice .__container .__voice-main .__voice-item .__item-case .case-list.is-after::before {
@@ -16322,21 +16356,34 @@ figure {
   padding-bottom: 20px;
   top: -40px;
 }
+@media screen and (max-width: 769px) {
+  #work .p-voice .__container .__voice-main .__voice-item .__item-case .case-list.is-after::before {
+    width: 100px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: -20px;
+  }
+}
 #work .p-voice .__container .__voice-main .__voice-item .__item-info {
   padding-top: 45px;
   padding-bottom: 45px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 40px;
+  row-gap: 20px;
   border-bottom: 3px dashed #ff811c;
 }
 @media screen and (max-width: 769px) {
   #work .p-voice .__container .__voice-main .__voice-item .__item-info {
     padding-top: 36px;
     padding-bottom: 36px;
-    gap: 20px;
+    row-gap: 20px;
   }
 }
 #work .p-voice .__container .__voice-main .__voice-item .__item-info .__info-list {
