@@ -221,6 +221,11 @@ figure {
 .mt-108 {
   margin-top: 108px;
 }
+@media screen and (max-width: 769px) {
+  .mt-108 {
+    margin-top: 60px;
+  }
+}
 
 .pr-0 {
   padding: 15px 5px !important;
@@ -231,6 +236,27 @@ figure {
 
 .pb-36 {
   padding-bottom: 36px;
+}
+
+.p-area {
+  background-image: url(../img/img-area.png) !important;
+}
+
+.__btn-g {
+  justify-content: flex-start !important;
+}
+
+.line-contact::before {
+  right: 5% !important;
+}
+
+.mt-22 {
+  margin-top: 38px !important;
+}
+@media screen and (max-width: 769px) {
+  .mt-22 {
+    margin-top: 16px !important;
+  }
 }
 
 .c-header {
@@ -2871,8 +2897,7 @@ figure {
   }
 }
 #member .p-slider .container {
-  width: -moz-max-content;
-  width: max-content;
+  max-width: 1920px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2884,11 +2909,15 @@ figure {
     transform: translateX(-11%);
   }
 }
-#member .p-slider .container .step-slider-img {
-  width: 428px;
+#member .p-slider .container .about-slider {
+  max-width: 1920px;
+  width: 100%;
+}
+#member .p-slider .container .about-slider .step-slider-img {
+  max-width: 428px;
 }
 @media screen and (max-width: 769px) {
-  #member .p-slider .container .step-slider-img {
+  #member .p-slider .container .about-slider .step-slider-img {
     width: 186px;
   }
 }
@@ -4108,6 +4137,11 @@ figure {
   content: "";
   bottom: 100px;
 }
+@media screen and (max-width: 769px) {
+  #company .p-intro-ceos .__container::after {
+    width: 92%;
+  }
+}
 #company .p-intro-ceos .__container .__ceos-ttl {
   text-align: center;
   font-weight: 700;
@@ -4135,6 +4169,8 @@ figure {
 @media screen and (max-width: 769px) {
   #company .p-intro-ceos .__container .__ceos-ttl::after, #company .p-intro-ceos .__container .__ceos-ttl::before {
     width: 29%;
+    height: 5px;
+    top: 18%;
     background-size: 280%;
   }
 }
@@ -4265,7 +4301,7 @@ figure {
   background-image: url(../img/company/img-before.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: contain;
   top: 0;
   right: 0;
   z-index: -1;
@@ -4274,7 +4310,8 @@ figure {
   #company .p-vision .__container .__vision-head::after {
     width: 100%;
     height: 320px;
-    top: 180px;
+    top: 800px;
+    background-size: contain;
   }
 }
 @media screen and (max-width: 769px) {
@@ -4295,7 +4332,7 @@ figure {
     width: max-content;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 416px;
+    padding-bottom: 30px;
   }
 }
 #company .p-vision .__container .__vision-head .__head-ctn {
@@ -4305,6 +4342,7 @@ figure {
 @media screen and (max-width: 769px) {
   #company .p-vision .__container .__vision-head .__head-ctn {
     line-height: 1.5;
+    padding-bottom: 400px;
   }
 }
 #company .p-vision .__container .__vision-main {
@@ -4350,6 +4388,11 @@ figure {
   font-weight: 1000;
   text-align: center;
 }
+@media screen and (max-width: 769px) {
+  #company .p-vision .__container .__vision-main .__main-item .en-ttl {
+    font-size: 71px;
+  }
+}
 #company .p-vision .__container .__vision-main .__main-item .jp-ttl {
   color: #ff811c;
   font-size: 28px;
@@ -4360,10 +4403,14 @@ figure {
   padding-top: 45px;
   font-size: 16px;
   font-weight: 500;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
 }
 @media screen and (max-width: 769px) {
   #company .p-vision .__container .__vision-main .__main-item .__item-ctn {
     padding-top: 20px;
+    width: 100%;
   }
 }
 #company .p-licenses {
@@ -4411,7 +4458,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #company .p-licenses .__container .__licenses-ttl::after {
-    width: 9%;
+    width: 7%;
   }
 }
 #company .p-licenses .__container .__licenses-ttl::before {
@@ -4479,6 +4526,12 @@ figure {
 }
 #company .p-licenses .__container .__licenses-main .__licenses-item .__item-main {
   max-width: 540px;
+}
+@media screen and (max-width: 769px) {
+  #company .p-licenses .__container .__licenses-main .__licenses-item .__item-main {
+    width: 100%;
+    text-align: center;
+  }
 }
 #company .p-licenses .__container .__licenses-main .__licenses-item .__item-main .__item-ttl {
   font-size: 24px;
@@ -4611,7 +4664,7 @@ figure {
   width: 80%;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 10px;
+  padding-left: 40px;
   position: relative;
 }
 @media screen and (max-width: 769px) {
@@ -4620,6 +4673,7 @@ figure {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+    padding-left: 0;
   }
 }
 #company .p-company .__container .p-company-main .__company-list .__company-ctn::after {
@@ -5989,6 +6043,7 @@ figure {
     left: 0;
     top: 54px;
     z-index: -1;
+    margin: auto;
   }
 }
 #law .p-law .__container .__law-item .__law-ttl {
@@ -5999,6 +6054,12 @@ figure {
   width: max-content;
   background-color: white;
   padding-right: 50px;
+}
+@media screen and (max-width: 769px) {
+  #law .p-law .__container .__law-item .__law-ttl {
+    margin: auto;
+    padding-right: 0;
+  }
 }
 #law .p-law .__container .__law-item .__law-ctn {
   padding-top: 64px;
@@ -6197,7 +6258,7 @@ figure {
 @media screen and (max-width: 769px) {
   #contact .p-company .__container .p-company-main .__company-list .__company-ttl {
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -6255,6 +6316,7 @@ figure {
   width: 100%;
   font-size: 20px;
   font-weight: 400;
+  resize: none;
 }
 @media screen and (max-width: 769px) {
   #contact .p-company .__container .p-company-main .__company-list .__company-ctn textarea {
@@ -6355,7 +6417,7 @@ figure {
   justify-content: center;
   gap: 40px;
   padding: 9px 30px 9px 9px;
-  background-color: #84c42c;
+  background-color: #46b416;
   font-size: 30px;
   font-weight: 700;
   text-decoration: none;
@@ -7250,7 +7312,7 @@ figure {
   padding-top: 110px;
   padding-left: 140px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   width: -moz-max-content;
@@ -7322,7 +7384,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-pagettl .__container .__page-ttl-badge .__badge-item {
-    max-width: 58px;
+    max-width: 50px;
   }
 }
 #unneeditem .p-contact-1 {
@@ -7563,9 +7625,10 @@ figure {
   padding-top: 56px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   background-color: white;
+  width: 100%;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-clean .__container .__clean-items .__clean-item {
@@ -7628,6 +7691,7 @@ figure {
 #unneeditem .p-clean .__container .__clean-footer figure {
   max-width: 285px;
   padding-bottom: 14px;
+  padding-right: 10px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-clean .__container .__clean-footer figure {
@@ -7754,7 +7818,7 @@ figure {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  bottom: 0%;
+  bottom: -11px;
   left: 0%;
   z-index: -1;
 }
@@ -7900,14 +7964,14 @@ figure {
   height: 50px;
   background-image: url(../img/unneeditem/img-unneed-service-work-case-before_1-before.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: contain;
   background-position: center;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-unneed_service .__container .__unneed_service-work .__work-cases .__case-item .__before::before {
     width: 125px;
     top: 0;
-    height: 43px;
+    height: 33px;
   }
 }
 #unneeditem .p-unneed_service .__container .__unneed_service-work .__work-cases .__case-item .__before::after {
@@ -7942,14 +8006,14 @@ figure {
   height: 50px;
   background-image: url(../img/unneeditem/img-unneed-service-work-case-after_1-before.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: contain;
   background-position: center;
   top: 10px;
 }
 @media screen and (max-width: 769px) {
   #unneeditem .p-unneed_service .__container .__unneed_service-work .__work-cases .__case-item .__after::before {
     width: 109px;
-    height: 43px;
+    height: 33px;
     top: 0;
   }
 }
@@ -10250,6 +10314,7 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-pagettl .__container h2 figure {
     right: -26%;
+    max-width: 40px;
   }
 }
 #cleanning .p-pagettl .__container .__page-ttl-badge {
@@ -10262,7 +10327,7 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-pagettl .__container .__page-ttl-badge {
     padding-top: 3px;
-    gap: 8px;
+    gap: 5px;
   }
 }
 #cleanning .p-pagettl .__container .__page-ttl-badge .__badge-item {
@@ -10270,7 +10335,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-pagettl .__container .__page-ttl-badge .__badge-item {
-    max-width: 58px;
+    max-width: 49px;
   }
 }
 #cleanning .p-contact-1 {
@@ -10371,7 +10436,7 @@ figure {
     width: 163px;
     height: 110px;
     top: -326px;
-    right: 0;
+    right: 0 !important;
   }
 }
 #cleanning .p-contact-1 .__container .__btn-g .line-contact img {
@@ -10875,6 +10940,7 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-collection .__container .__collection-ttl .__ttl-main span {
     font-size: 30px;
+    padding-left: 11px;
   }
 }
 #cleanning .p-collection .__container .__collection-items {
@@ -11906,7 +11972,7 @@ figure {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
   padding: 40px;
   background-color: #e4f4ff;
@@ -12022,7 +12088,8 @@ figure {
 @media screen and (max-width: 769px) {
   #cleanning .p-flow .__container .__flow-main .__flow-step .__step-ctn .__step-ttl .__step-num {
     font-size: 35px;
-    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
     height: 50px;
   }
 }
@@ -12177,7 +12244,7 @@ figure {
     width: 166px;
     height: 103px;
     top: -409%;
-    right: -30px;
+    right: -30px !important;
     background-size: cover;
     background-position: top;
   }
@@ -12209,7 +12276,7 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-flow .__container .__flow-ctn {
-    padding-top: 80px;
+    margin-top: 80px;
     padding: 16px 50px;
     font-size: 24px;
   }
@@ -12369,8 +12436,8 @@ figure {
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-giveme .__container .__giveme-ttl::after {
-    width: 40px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 }
 #cleanning .p-giveme .__container .__giveme-ctn {
@@ -12735,14 +12802,14 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   top: -286%;
-  right: 3%;
+  right: 3% !important;
 }
 @media screen and (max-width: 769px) {
   #cleanning .p-contact .__container .__btn-g .line-contact::before {
     width: 166px;
     height: 117px;
     top: -445%;
-    right: -12px;
+    right: -12px !important;
     background-size: 100%;
   }
 }
@@ -16914,13 +16981,13 @@ figure {
   font-weight: 700;
   color: #ff811c;
   position: absolute;
-  bottom: 23px;
+  bottom: 9px;
   left: 86px;
 }
 @media screen and (max-width: 769px) {
   #plan .p-plan .container .__plan-ttl .mark::after {
     font-size: 27px;
-    bottom: 9px;
+    bottom: 3px;
     left: 43px;
   }
 }
@@ -17646,6 +17713,9 @@ figure {
 #plan .p-case .container .__case-main .__case-item .cats .cat.green {
   background-color: #14ae5c;
 }
+#plan .p-case .container .__case-main .__case-item .cats .cat.red {
+  background-color: #b20000;
+}
 #plan .p-case .container .__case-main .__case-item .item-imgs {
   padding-top: 76px;
   display: flex;
@@ -17986,11 +18056,14 @@ figure {
   }
 }
 #plan .p-purchase .container .__purchase-main .__main-items .__item .__item-info h5 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   color: #0a0a0a;
   border-bottom: 2px solid #ff811c;
   padding-bottom: 16px;
+  min-height: 116px;
+  display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 769px) {
   #plan .p-purchase .container .__purchase-main .__main-items .__item .__item-info h5 {

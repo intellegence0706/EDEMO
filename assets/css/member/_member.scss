@@ -65,7 +65,7 @@
       padding-bottom: 25px;
     }
     .container {
-      width: max-content;
+      max-width: 1920px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -74,10 +74,15 @@
         gap: 15px;
         transform: translateX(-11%);
       }
-      .step-slider-img {
-        width: 428px;
-        @include media-sp {
-          width: 186px;
+
+      .about-slider {
+        max-width: 1920px;
+        width: 100%;
+        .step-slider-img {
+          max-width: 428px;
+          @include media-sp {
+            width: 186px;
+          }
         }
       }
     }

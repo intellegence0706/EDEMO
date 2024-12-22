@@ -162,7 +162,7 @@
             position: relative;
             @include media-sp {
               width: 100%;
-              text-align: left;
+              text-align: center;
               padding-left: 15px;
               padding-top: 15px;
               padding-bottom: 15px;
@@ -215,6 +215,7 @@
               width: 100%;
               font-size: 20px;
               font-weight: 400;
+              resize: none;
               @include media-sp {
                 width: 96%;
               }
@@ -309,7 +310,7 @@
         justify-content: center;
         gap: 40px;
         padding: 9px 30px 9px 9px;
-        background-color: #84c42c;
+        background-color: #46b416;
         font-size: 30px;
         font-weight: 700;
         text-decoration: none;

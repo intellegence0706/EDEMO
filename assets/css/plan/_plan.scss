@@ -118,11 +118,11 @@
             font-weight: 700;
             color: #ff811c;
             position: absolute;
-            bottom: 23px;
+            bottom: 9px;
             left: 86px;
             @include media-sp {
               font-size: 27px;
-              bottom: 9px;
+              bottom: 3px;
               left: 43px;
             }
           }
@@ -829,6 +829,9 @@
               &.green {
                 background-color: #14ae5c;
               }
+              &.red {
+                background-color: #b20000;
+              }
             }
           }
           .item-imgs {
@@ -1131,11 +1134,15 @@
                 padding-top: 10px;
               }
               h5 {
-                font-size: 25px;
+                font-size: 22px;
                 font-weight: 700;
                 color: #0a0a0a;
                 border-bottom: 2px solid #ff811c;
                 padding-bottom: 16px;
+                min-height: 116px;
+                display: flex;
+                align-items: center;
+
                 @include media-sp {
                   font-size: 18px;
                   padding-bottom: 8px;

@@ -72,6 +72,9 @@
 
 .mt-108 {
   margin-top: 108px;
+  @include media-sp {
+    margin-top: 60px;
+  }
 }
 
 .pr-0 {
@@ -83,4 +86,24 @@
 
 .pb-36 {
   padding-bottom: 36px;
+}
+
+.p-area {
+  background-image: url(../img/img-area.png) !important;
+}
+.__btn-g {
+  justify-content: flex-start !important;
+}
+
+.line-contact {
+  &::before {
+    right: 5% !important;
+  }
+}
+
+.mt-22 {
+  margin-top: 38px !important;
+  @include media-sp {
+    margin-top: 16px !important;
+  }
 }

@@ -259,6 +259,7 @@
             left: 0;
             top: 54px;
             z-index: -1;
+            margin: auto;
           }
         }
         .__law-ttl {
@@ -268,6 +269,10 @@
           width: max-content;
           background-color: white;
           padding-right: 50px;
+          @include media-sp {
+            margin: auto;
+            padding-right: 0;
+          }
         }
         .__law-ctn {
           padding-top: 64px;

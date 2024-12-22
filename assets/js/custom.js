@@ -73,7 +73,7 @@ $(function() {
 
 $(document).ready(function() {
   // Initialize the slider
-  $('.__main-slider').slick({
+  $('.about-slider').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -83,7 +83,7 @@ $(document).ready(function() {
         {
             breakpoint: 768,  // At 768px or greater
             settings: {
-                slidesToShow: 2,  // Show only one slide
+                slidesToShow: 1,  // Show only one slide
                 slidesToScroll: 1  // Ensure scrolling only one slide
             }
         }

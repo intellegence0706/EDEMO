@@ -28,7 +28,7 @@
       padding-top: 110px;
       padding-left: 140px;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       flex-direction: column;
       width: max-content;
@@ -88,7 +88,7 @@
         .__badge-item {
           max-width: 153px;
           @include media-sp {
-            max-width: 58px;
+            max-width: 50px;
           }
         }
       }
@@ -308,9 +308,10 @@
           padding-top: 56px;
           display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content: flex-start;
           flex-direction: column;
           background-color: white;
+          width: 100%;
           @include media-sp {
             max-width: unset;
             padding-top: 16px;
@@ -362,9 +363,11 @@
           font-size: 35px;
           padding-top: 40px;
         }
+
         figure {
           max-width: 285px;
           padding-bottom: 14px;
+          padding-right: 10px;
           @include media-sp {
             max-width: 197px;
             /* padding-bottom: 14px; */
@@ -478,7 +481,7 @@
           background-repeat: no-repeat;
           background-position: center;
           background-size: 100% 100%;
-          bottom: 0%;
+          bottom: -11px;
           left: 0%;
           z-index: -1;
           @include media-sp {
@@ -605,12 +608,12 @@
                 height: 50px;
                 background-image: url(../img/unneeditem/img-unneed-service-work-case-before_1-before.png);
                 background-repeat: no-repeat;
-                background-size: 100% 100%;
+                background-size: contain;
                 background-position: center;
                 @include media-sp {
                   width: 125px;
                   top: 0;
-                  height: 43px;
+                  height: 33px;
                 }
               }
 
@@ -644,12 +647,12 @@
                 height: 50px;
                 background-image: url(../img/unneeditem/img-unneed-service-work-case-after_1-before.png);
                 background-repeat: no-repeat;
-                background-size: 100% 100%;
+                background-size: contain;
                 background-position: center;
                 top: 10px;
                 @include media-sp {
                   width: 109px;
-                  height: 43px;
+                  height: 33px;
                   top: 0;
                 }
               }
